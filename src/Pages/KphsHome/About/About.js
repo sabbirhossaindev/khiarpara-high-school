@@ -7,7 +7,7 @@ const About = () => {
     return (
         <div className='p-2' id='about'>
             <Container>
-                <h1 className='text-center my-4'><span className='text-primary'>About</span> Me</h1>
+                <h1 className='text-center my-4'><span className='text-primary'>About</span> Our School</h1>
                 <hr className='hr1'/>
                 <hr className='hr2'/>
                 <Row>

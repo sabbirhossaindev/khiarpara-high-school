@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import logo from '../../../Images/logo/logo.png'
-import { BsBadgeCc, BsGithub, BsGlobe, BsPenFill, BsLinkedin } from 'react-icons/bs';
+import { BsGithub, BsGlobe, BsLinkedin } from 'react-icons/bs';
 import footer from '../../../Images/logo/footer.png'
 import './Footer.css';
 
@@ -83,7 +83,7 @@ const Footer = () => {
                     </Col>
                 </Row>
                 <div className='text-light text-center mt-3'>
-                    <h5>Created By Khiar Para High School    <BsBadgeCc className='text-warning mx-1'/> <span className='text-primary mx-2'>{formattedToday}</span>  All rights reserved {new Date().getFullYear()}. <BsPenFill className='text-success'/></h5>
+                    <h5>&copy;  Khiarpara High School <span className='text-primary mx-2'>{formattedToday}</span>  All Rights Reserved {new Date().getFullYear()}. &trade;</h5>
                 </div>
             </Container>
         </div>
