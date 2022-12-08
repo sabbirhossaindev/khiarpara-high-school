@@ -1,0 +1,40 @@
+.app{
+    border-radius: 8px;
+    width: 200px;
+    margin: 10px;
+    cursor: pointer;
+}
+.play{
+    border-radius: 8px;
+    width: 200px;
+    margin: 10px;
+    cursor: pointer;
+}
+.social-link{
+    display: flex;
+    gap: 20px;
+}
+.social-link a{
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+}
+
+.menu-link{
+    text-decoration: none;
+    font-size: 23px;
+}
+.my-nav a h5{
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+}
+
+.nav-link{
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+}
+.kphs{
+    height: 150px;
+    width: 150px;
+}

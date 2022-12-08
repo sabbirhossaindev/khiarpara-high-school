@@ -1,15 +1,16 @@
 import React from 'react';
 import { Button, Col, Container, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import error from '../../../Images/logo/error.gif';
 
 const NotFound = () => {
     return (
-        <div className='mt-5 my-5 text-center p-5'>
+        <div className='mt-5 my-5 text-center p-4'>
             <Container>
             <Row>
                 <Col md="6">
                     <div>
-                        <img src='' alt="not found" className='img-fluid rounded' data-aos="flip-left"/>
+                        <img src={error} alt="not found" className='img-fluid rounded' data-aos="flip-left"/>
                     </div>
                 </Col>
                 <Col md="6">
