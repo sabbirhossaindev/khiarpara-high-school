@@ -1,10 +1,11 @@
 import './App.css';
-import { Button } from 'react-bootstrap';
+import { RouterProvider } from 'react-router-dom';
+import { router } from './Routes/Routes/Routes';
 
 function App() {
   return (
     <div className='mx-auto'>
-       <Button variant="primary">Uzzal</Button>{' '}
+       <RouterProvider router={router}></RouterProvider>
     </div>
   );
 }
