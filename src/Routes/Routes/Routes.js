@@ -5,6 +5,9 @@ import Blogs from "../../Pages/KphsHome/Blogs/Blogs";
 import Contact from "../../Pages/KphsHome/Contact/Contact";
 import Home from "../../Pages/KphsHome/Home/Home";
 import HomeTop from "../../Pages/KphsHome/HomeTop/HomeTop";
+import ManagingCommittee from "../../Pages/KphsHome/ManagingCommittee/ManagingCommittee";
+import Notice from "../../Pages/KphsHome/Notice/Notice";
+import Teachers from "../../Pages/KphsHome/Teachers/Teachers";
 import NotFound from "../../Pages/Shared/NotFound/NotFound";
 
 
@@ -26,6 +29,18 @@ export const router = createBrowserRouter([
             {
                 path: '/about',
                 element: <About></About>
+            },
+            {
+                path: '/notice',
+                element: <Notice></Notice>
+            },
+            {
+                path: '/teachers',
+                element: <Teachers></Teachers>
+            },
+            {
+                path: '/managingcommittee',
+                element: <ManagingCommittee></ManagingCommittee>
             },
             {
                 path: '/blogs',

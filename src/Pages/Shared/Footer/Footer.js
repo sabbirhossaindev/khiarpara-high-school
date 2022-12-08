@@ -44,11 +44,10 @@ const Footer = () => {
                             
                             <a className='menu-link' href="#contact"><h5 className='mx-2 nav-link text-secondary'>Contact</h5>
                             </a>
-                            <a href="sabbir-hossain.pdf" download='sabbir-hossain.pdf'><button type='submit' className='btn btn-sm btn-warning mx-2 my-1 fs-5 menu-link'>Resume</button></a>
                         </div>      
                     </Col>
                     <Col md="3">
-                        <h2 className='mx-auto text-center fs-3'>Contact Us</h2>
+                        <h2 className='mx-auto text-center fs-3'>CONTACT US</h2>
                         <hr className='hr2'/>
                         <div className='mx-auto text-center'>
                             <p className='fs-5 text-secondary'>+8801888559287</p>
@@ -58,7 +57,7 @@ const Footer = () => {
                     </Col>
                     <Col md="3">
                         <div>
-                            <h4 className='mx-auto text-center fs-3'>We Are Provide</h4>
+                            <h4 className='mx-auto text-center fs-3'>WE ARE PROVIDE</h4>
                             <hr className='hr2'/>
                             <div className='mx-auto text-center'>
                                 <a className='menu-link text-secondary' href="https://dev-sabbir.web.app"><h3 className='fs-4'>JavasScript</h3></a>

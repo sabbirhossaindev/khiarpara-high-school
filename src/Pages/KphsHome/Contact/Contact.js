@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import './Contact.css';
-import { BsFillTelephoneInboundFill, BsFillEnvelopeOpenFill, BsCursorFill, BsFacebook, BsInstagram, BsLinkedin, BsGithub, BsGlobe } from "react-icons/bs";
+import { BsFillTelephoneInboundFill, BsFillEnvelopeOpenFill, BsCursorFill, BsFacebook, BsInstagram, BsLinkedin, BsGithub, BsGlobe, BsChatDotsFill} from "react-icons/bs";
 import Form from 'react-bootstrap/Form';
 import { toast } from 'react-toastify';
 
@@ -30,7 +30,7 @@ const Contact = () => {
         .then(res => res.json())
         .then(data => {
             // console.log(data);
-            toast.success('Message sand.😮😮 please check your email your answer will be given after a few minutes later📝 Thank you !🥰');
+            toast.success('Message sand.😮 please check your email your answer will be given after a few minutes later📝 Thank you !🥰');
             form.reset('');
         })
     }
@@ -91,28 +91,28 @@ const Contact = () => {
                         <Row>
                             <Col md="6">
                                 <Form.Group className="mb-3" controlId="formBasicEmail">
-                                    <Form.Label>Name</Form.Label>
-                                    <Form.Control name='name' type="text" placeholder="Name" required/>
+                                    <Form.Label className='fs-5'>Name</Form.Label>
+                                    <Form.Control name='name' type="text" placeholder="Please Enter Your Name" required/>
                                 </Form.Group>
                             </Col>
                             <Col md="6">
                                 <Form.Group className="mb-3" controlId="formBasicEmail">
-                                    <Form.Label>Email *</Form.Label>
-                                    <Form.Control name='email' type="email" placeholder="Enter email" required/>
+                                    <Form.Label className='fs-5'>Email *</Form.Label>
+                                    <Form.Control name='email' type="email" placeholder="Please Enter Your Email" required/>
                                 </Form.Group>
                             </Col>
                         </Row>
                         
                         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                            <Form.Label>Subject</Form.Label>
-                            <Form.Control name='subject' type="text" placeholder="subject" required/>
+                            <Form.Label className='fs-5'>Subject</Form.Label>
+                            <Form.Control name='subject' type="text" placeholder="Please Type Your Subject" required/>
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                            <Form.Label>Message *</Form.Label>
-                            <Form.Control as="textarea" rows={3} name='message' placeholder="Message me please" required/>
+                            <Form.Label className='fs-5'>Message *</Form.Label>
+                            <Form.Control as="textarea" rows={3} name='message' placeholder="Message Me Please..." required/>
                         </Form.Group>
                         
-                        <button type="submit" className='my-3 btn btn-primary'>Sand Message</button>
+                        <button type="submit" className='my-3 btn outline btn-primary'>Sand Message <BsChatDotsFill className='text-warning'/></button>
                         </Form>
                     </Col>
                 </Row>

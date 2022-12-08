@@ -24,11 +24,14 @@ const Header = () => {
 
                 <a className='menu-link' href="#about"><h5 className='mx-2 nav-link text-secondary'>About</h5>
                 </a>
-
-                <a className='menu-link' href="#skills"><h5 className='mx-2 nav-link text-secondary'>Skills</h5>
+                
+                <a className='menu-link' href="#notice"><h5 className='mx-2 nav-link text-secondary'>Notice</h5>
                 </a>
 
-                <a className='menu-link' href="#projects"><h5 className='mx-2 nav-link text-secondary'>Projects</h5>
+                <a className='menu-link' href="#teachers"><h5 className='mx-2 nav-link text-secondary'>Teachers</h5>
+                </a>
+
+                <a className='menu-link' href="#managingCommittee"><h5 className='mx-2 nav-link text-secondary'>ManagingCommittee</h5>
                 </a>
 
                 <a className='menu-link' href="#blogs"><h5 className='mx-2 nav-link text-secondary'>Blogs</h5>
