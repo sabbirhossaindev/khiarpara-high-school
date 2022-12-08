@@ -4,7 +4,7 @@ import { Button } from 'react-bootstrap';
 function App() {
   return (
     <div className='mx-auto'>
-       <Button variant="primary">Primary</Button>{' '}
+       <Button variant="primary">Uzzal</Button>{' '}
     </div>
   );
 }
