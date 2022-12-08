@@ -12,7 +12,7 @@ const About = () => {
                 <hr className='hr2'/>
                 <Row>
                     <Col md='4'>
-                        <div data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                        <div data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                             <img src={school} alt="school pic" className='rounded img-fluid p-2' />
                         </div>
                     </Col>

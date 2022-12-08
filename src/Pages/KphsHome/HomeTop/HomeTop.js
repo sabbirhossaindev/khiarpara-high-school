@@ -2,8 +2,7 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import Carousel from 'react-bootstrap/Carousel';
 import './HomeTop.css';
-import banner1 from '../../../Images/logo/aws.png'
-import banner2 from '../../../Images/logo/me.png'
+import banner1 from '../../../Images/logo/aws.png';
 
 const HomeTop = () => {
     return (
