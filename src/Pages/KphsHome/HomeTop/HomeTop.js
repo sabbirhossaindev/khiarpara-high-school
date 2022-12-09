@@ -6,7 +6,7 @@ import banner1 from '../../../Images/logo/aws.png';
 
 const HomeTop = () => {
     return (
-        <div className=' mt-1 my-5 home-Banner rounded' id='home'>
+        <div className=' mt-1 home-Banner rounded' id='home'>
             <Container>
             <Carousel>
                 <Carousel.Item>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import './Contact.css';
-import { BsFillTelephoneInboundFill, BsFillEnvelopeOpenFill, BsCursorFill, BsFacebook, BsInstagram, BsLinkedin, BsGithub, BsGlobe, BsChatDotsFill} from "react-icons/bs";
+import { BsFillTelephoneInboundFill, BsFillEnvelopeOpenFill, BsCursorFill, BsFacebook, BsInstagram, BsLinkedin, BsGlobe, BsChatDotsFill} from "react-icons/bs";
 import Form from 'react-bootstrap/Form';
 import { toast } from 'react-toastify';
 
@@ -44,39 +44,37 @@ const Contact = () => {
                 <Row className='mt-5'>
                     <Col md='5' data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <div className='phone'>
-                            <h2 className='mt-2'>
-                                <span><BsFillTelephoneInboundFill /></span>
+                            <h2 className='mt-3'>
+                                <span className='text-danger'><BsFillTelephoneInboundFill /></span>
                             </h2>
                             <div>
-                                <h2>Phone</h2>
-                                <h5>+088 018-88559287</h5>
+                                <h2 className='fs-1'>Phone</h2>
+                                <h5 className='text-secondary fs-4'>+088 018-88559287</h5>
                             </div>
                         </div>
 
                         <div className='email'>
-                            <h2 className='mt-2'>
-                                <span><BsFillEnvelopeOpenFill /></span>
+                            <h2 className='mt-3'>
+                                <span className='text-warning'><BsFillEnvelopeOpenFill /></span>
                             </h2>
                             <div>
-                                <h2>Email</h2>
-                                <h5>mdsabbir4774770@gmail.com</h5>
+                                <h2 className='fs-1'>Email</h2>
+                                <h5 className='text-secondary fs-4'>kp-high-school@gmail.com</h5>
                             </div>
                         </div>
 
                         <div className='location'>
-                            <h2 className='mt-2'>
-                                <span><BsCursorFill /></span>
+                            <h2 className='mt-3'>
+                                <span className='text-success'><BsCursorFill /></span>
                             </h2>
                             <div>
-                                <h2>Location</h2>
-                                <h5>Rangpur, Badarganj-201</h5>
+                                <h2 className='fs-1'>Location</h2>
+                                <h5 className='text-secondary fs-4'>Badarganj, Rangpur</h5>
                             </div>
                         </div>
 
                         <div className='social-link text-center my-2'>
                                 <h2 className='social-h2'><a href="#home"><BsGlobe className='text-primary'/></a></h2>
-
-                                <h2 className='social-h2'><a href="https://github.com/sabbirvai"><BsGithub className='text-secondary'/></a></h2> 
 
                                 <h2 className='social-h2'><a href="https://www.linkedin.com/in/md-sabbir-hossain-18300b244/"><BsLinkedin className='text-primary'/></a></h2>
                                    

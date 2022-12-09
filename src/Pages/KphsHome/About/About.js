@@ -2,10 +2,15 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import './About.css';
 import school from '../../../Images/logo/logo.png'
+import fream1 from '../../../Images/logo/fream1.jpg';
 
 const About = () => {
     return (
-        <div className='p-2' id='about'>
+        <div className='p-1' id='about'
+        style={{
+            background: `url(${fream1})`,
+            backgroundSize: 'cover',
+        }}>
             <Container>
                 <h1 className='text-center my-4'><span className='text-primary'>About</span> Our School</h1>
                 <hr className='hr1'/>

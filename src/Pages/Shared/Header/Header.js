@@ -10,7 +10,7 @@ const Header = () => {
       <div id='home'>
         <Navbar className='nav-ber' collapseOnSelect expand="lg">
         <Container>
-          <Navbar.Brand><Link className='mx-3 nav-link' to='/'><h2 className='text-secondary'><strong>KPHS</strong></h2></Link></Navbar.Brand>
+          <Navbar.Brand><Link className='mx-3 nav-link' to='/'><h2 className='text-success'><strong>KPHS</strong></h2></Link></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <div className="position-fixed fixed-bottom text-end me-4 mb-4">

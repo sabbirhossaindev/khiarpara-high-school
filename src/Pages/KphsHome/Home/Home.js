@@ -4,6 +4,7 @@ import Blogs from '../Blogs/Blogs';
 import Contact from '../Contact/Contact';
 import HomeTop from '../HomeTop/HomeTop';
 import ManagingCommittee from '../ManagingCommittee/ManagingCommittee';
+import Notice from '../Notice/Notice';
 import Teachers from '../Teachers/Teachers';
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
         <div>
             <HomeTop></HomeTop>
             <About></About>
+            <Notice></Notice>
             <Teachers></Teachers>
             <ManagingCommittee></ManagingCommittee>
             <Blogs></Blogs>
