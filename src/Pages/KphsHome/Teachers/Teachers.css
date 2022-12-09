@@ -1,0 +1,27 @@
+.skill-banner{
+    background: #f6f3f3;
+    width: 100%;
+}
+.hr2{
+    border: 1.5px solid black;
+    width: 100px;
+}
+
+hr:not([size]) {
+    height: 1px;
+}
+.hr1 {
+    border: 1px solid crimson;
+    width: 70px;
+}
+.hr1, .hr2 {
+    margin-left: auto;
+    margin-right: auto;
+}
+hr {
+    margin: 1rem 0;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: .25;
+}
