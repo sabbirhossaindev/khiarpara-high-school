@@ -41,9 +41,6 @@ const Teachers = () => {
                                                 <BsStarFill className='text-center text-warning mx-1'/>
                                                 <BsStarFill className='text-center text-warning mx-1'/>
                                             </div>
-                                            {/* <div className='text-center'>
-                                                <h3>{skill?.develop}</h3>
-                                            </div> */}
                                             <p class="card-text text-start my-4"><small class="text-muted text-star">Last updated 3 mins ago</small></p>
                                         </Card.Body>
                                     </Col>
