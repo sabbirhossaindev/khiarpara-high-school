@@ -24,108 +24,76 @@ const HomeTop = () => {
                     <Carousel.Item>
                         <div className='carousel-img'>
                             <img
-                            className="d-block w-100 img-fluid rounded"
+                            className="d-block w-100 img-fluid carousel-top-img rounded"
                             src={banner1}
                             alt="First slide"
                             />
                         </div>
-                        <Carousel.Caption className='mt-4 my-3 text-center'>
-                        <h1 className=''>We do <span className='text-warning'>Phone Selling</span> <br /> all over Bangladesh.</h1>
-                        <p className=''>Phone Sell is one of the most reliable wholesale and retail mobile phone stores. If you are looking for a trusted shop, you can come to us. You are always invited!</p>
-                        </Carousel.Caption>
                     </Carousel.Item>
                     
                     <Carousel.Item>
                         <div className='carousel-img'>
                             <img
-                            className="d-block w-100 img-fluid rounded"
+                            className="d-block w-100 img-fluid carousel-top-img rounded"
                             src={banner2}
                             alt="First slide"
                             />
                         </div>
-                        <Carousel.Caption className='mt-4 my-3 text-center'>
-                        <h1 className=''>We do <span className='text-warning'>Phone Selling</span> <br /> all over Bangladesh.</h1>
-                        <p className=''>Phone Sell is one of the most reliable wholesale and retail mobile phone stores. If you are looking for a trusted shop, you can come to us. You are always invited!</p>
-                        </Carousel.Caption>
                     </Carousel.Item>
                         
                     <Carousel.Item>
                         <div className='carousel-img'>
                             <img
-                            className="d-block w-100 img-fluid rounded"
+                            className="d-block w-100 img-fluid carousel-top-img rounded"
                             src={banner3}
                             alt="First slide"
                             />
                         </div>
-                        <Carousel.Caption className='mt-4 my-3 text-center'>
-                        <h1 className=''>We do <span className='text-warning'>Phone Selling</span> <br /> all over Bangladesh.</h1>
-                        <p className=''>Phone Sell is one of the most reliable wholesale and retail mobile phone stores. If you are looking for a trusted shop, you can come to us. You are always invited!</p>
-                        </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <div className='carousel-img'>
                             <img
-                            className="d-block w-100 img-fluid rounded"
+                            className="d-block w-100 img-fluid carousel-top-img rounded"
                             src={banner4}
                             alt="First slide"
                             />
                         </div>
-                        <Carousel.Caption className='mt-4 my-3 text-center'>
-                        <h1 className=''>We do <span className='text-warning'>Phone Selling</span> <br /> all over Bangladesh.</h1>
-                        <p className=''>Phone Sell is one of the most reliable wholesale and retail mobile phone stores. If you are looking for a trusted shop, you can come to us. You are always invited!</p>
-                        </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <div className='carousel-img'>
                             <img
-                            className="d-block w-100 img-fluid rounded"
+                            className="d-block w-100 img-fluid carousel-top-img rounded"
                             src={banner5}
                             alt="First slide"
                             />
                         </div>
-                        <Carousel.Caption className='mt-4 my-3 text-center'>
-                        <h1 className=''>We do <span className='text-warning'>Phone Selling</span> <br /> all over Bangladesh.</h1>
-                        <p className=''>Phone Sell is one of the most reliable wholesale and retail mobile phone stores. If you are looking for a trusted shop, you can come to us. You are always invited!</p>
-                        </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <div className='carousel-img'>
                             <img
-                            className="d-block w-100 img-fluid rounded"
+                            className="d-block w-100 img-fluid carousel-top-img rounded"
                             src={banner6}
                             alt="First slide"
                             />
                         </div>
-                        <Carousel.Caption className='mt-4 my-3 text-center'>
-                        <h1 className=''>We do <span className='text-warning'>Phone Selling</span> <br /> all over Bangladesh.</h1>
-                        <p className=''>Phone Sell is one of the most reliable wholesale and retail mobile phone stores. If you are looking for a trusted shop, you can come to us. You are always invited!</p>
-                        </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <div className='carousel-img'>
                             <img
-                            className="d-block w-100 img-fluid rounded"
+                            className="d-block w-100 img-fluid carousel-top-img rounded"
                             src={banner7}
                             alt="First slide"
                             />
                         </div>
-                        <Carousel.Caption className='mt-4 my-3 text-center'>
-                        <h1 className=''>We do <span className='text-warning'>Phone Selling</span> <br /> all over Bangladesh.</h1>
-                        <p className=''>Phone Sell is one of the most reliable wholesale and retail mobile phone stores. If you are looking for a trusted shop, you can come to us. You are always invited!</p>
-                        </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <div className='carousel-img'>
                             <img
-                            className="d-block w-100 img-fluid rounded"
+                            className="d-block w-100 img-fluid carousel-top-img rounded"
                             src={banner8}
                             alt="First slide"
                             />
                         </div>
-                        <Carousel.Caption className='mt-4 my-3 text-center'>
-                        <h1 className=''>We do <span className='text-warning'>Phone Selling</span> <br /> all over Bangladesh.</h1>
-                        <p className=''>Phone Sell is one of the most reliable wholesale and retail mobile phone stores. If you are looking for a trusted shop, you can come to us. You are always invited!</p>
-                        </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
             </Container>
