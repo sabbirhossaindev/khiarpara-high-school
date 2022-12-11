@@ -22,7 +22,7 @@ const HomeTop = () => {
         pauseOnHover: true,
     };
     return (
-        <div className='mt-1 home-Banner rounded' id='home'>
+        <div className='m-1 home-Banner rounded' id='home'>
         <Container>
             <Slider {...settings}>
             <div className='carousel-img rounded'>

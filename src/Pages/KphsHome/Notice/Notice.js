@@ -60,23 +60,22 @@ const Notice = () => {
             width: '100%'
         }}>
             <Container>
-                <h1 className='text-center my-4'><span className='text-primary'>Notice</span> Board</h1>
+                <h1 className='text-center my-3'><span className='text-primary'>Notice</span> Board</h1>
                 <hr className='hr1'/>
                 <hr className='hr2' />
                 
                 <Slider {...settings}>
                     {
                         notices.map(not =><Col md='6'sm='12' lg='4' className='text-center' key=''>
-                        <div className='my-4 mx-2 text-center'>
+                        <div className='mx-3 text-center'>
                             <Card className=''>
-                            <PhotoProvider>
-                                <PhotoView src={not?.img}>
-                                    <img variant="top" src={not?.img} alt="img" className='p-3 project-img text-center rounded'/>
-                                </PhotoView>
-                            </PhotoProvider>
+                                <PhotoProvider>
+                                    <PhotoView src={not?.img}>
+                                        <img variant="top" src={not?.img} alt="img" className='p-2 h-100 project-img text-center rounded'/>
+                                    </PhotoView>
+                                </PhotoProvider>
                                 <Card.Body>
-                                    <h4 className='text-center text-success'>{not?.title}</h4>
-                                    {/* <p className='text-center fs-5 p-2 text-secondary'>{pro?.description.slice(0, 100) + " ... more"}</p> */}
+                                    <p className='text-center fs-5'>{not?.title}</p>
                                 </Card.Body>
                             </Card>
                         </div>
