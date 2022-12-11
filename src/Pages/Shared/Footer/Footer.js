@@ -1,7 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import logo from '../../../Images/logo/logo.png'
-import { BsGithub, BsGlobe, BsLinkedin } from 'react-icons/bs';
 import footer from '../../../Images/logo/footer.png'
 import './Footer.css';
 
@@ -33,10 +32,13 @@ const Footer = () => {
                             <a className='menu-link' href="#about"><h5 className='mx-2 nav-link text-secondary'>About</h5>
                             </a>
 
-                            <a className='menu-link' href="#skills"><h5 className='mx-2 nav-link text-secondary'>Skills</h5>
+                            <a className='menu-link' href="#notice"><h5 className='mx-2 nav-link text-secondary'>Notice</h5>
                             </a>
 
-                            <a className='menu-link' href="#projects"><h5 className='mx-2 nav-link text-secondary'>Projects</h5>
+                            <a className='menu-link' href="#teachers"><h5 className='mx-2 nav-link text-secondary'>Teachers</h5>
+                            </a>
+
+                            <a className='menu-link' href="#managingCommittee"><h5 className='mx-2 nav-link text-secondary'>Managing Committee</h5>
                             </a>
 
                             <a className='menu-link' href="#blogs"><h5 className='mx-2 nav-link text-secondary'>Blogs</h5>
@@ -46,15 +48,17 @@ const Footer = () => {
                             </a>
                         </div>      
                     </Col>
+
                     <Col md="3">
                         <h2 className='mx-auto text-center fs-3'>CONTACT US</h2>
                         <hr className='hr2'/>
                         <div className='mx-auto text-center'>
                             <p className='fs-5 text-secondary'>+8801888559287</p>
                             <p className='fs-5 text-secondary'>+8801719228487</p>
-                            <p className='fs-5 text-secondary'>mdsabbir477470@gmail.com</p>
+                            <p className='fs-5 text-secondary'>kp-high-school@gmail.com</p>
                         </div>
                     </Col>
+
                     <Col md="3">
                         <div>
                             <h4 className='mx-auto text-center fs-3'>WE ARE PROVIDE</h4>
@@ -69,20 +73,14 @@ const Footer = () => {
                             </div>
                         </div>
                     </Col>
+
                     <Col md="3" className='mx-auto text-center'>
                         <h2 className='mx-auto text-center'>KPHS</h2>
                         <hr className='hr2'/>
-                        <img src={logo} alt="aws" className='img-fluid rounded kphs' />
-                        <div className='social-link mx-5 text-center mt-3'>
-                                <h2 className='social-h2'><a href="https://dev-sabbir.web.app"><BsGlobe className='text-primary'/></a></h2>
-
-                                <h2 className='social-h2'><a href="https://github.com/sabbirvai"><BsGithub className='text-secondary'/></a></h2> 
-
-                                <h2 className='social-h2'><a href="https://www.linkedin.com/in/md-sabbir-hossain-18300b244/"><BsLinkedin className='text-primary'/></a></h2>
-                            </div>
+                        <img src={logo} alt="aws" className='img-fluid rounded kphs' data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000"/>
                     </Col>
                 </Row>
-                <div className='text-light text-center mt-3'>
+                <div className='text-light text-center mt-5'>
                     <h5>&copy;  Khiarpara High School <span className='text-primary mx-2'>{formattedToday}</span>  All Rights Reserved {new Date().getFullYear()}. &trade;</h5>
                 </div>
             </Container>

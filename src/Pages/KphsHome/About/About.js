@@ -10,6 +10,7 @@ const About = () => {
         style={{
             background: `url(${fream1})`,
             backgroundSize: 'cover',
+            width: '100%'
         }}>
             <Container>
                 <h1 className='text-center my-4'><span className='text-primary'>About</span> Our School</h1>

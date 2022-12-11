@@ -1,15 +1,11 @@
 .nav-ber{
     width: 100%;
 }
-.go-to-top-icon {
-    width: 35px;
-    height: 35px;
-    border: 3px solid #0626dd;
-    border-radius: 50%;
-}
+
 .menu-link{
     text-decoration: none;
 }
+
 .my-nav a h5{
     font-size: 20px;
     font-weight: 500;
