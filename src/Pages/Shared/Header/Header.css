@@ -7,7 +7,11 @@
 }
 
 .my-nav a span{
-    font-size: 18px;
+    font-size: 19px;
     font-weight: 500;
     font-family: Tahoma, sans-serif;
+}
+.kphs{
+    height: 60px;
+    width: 60px;
 }

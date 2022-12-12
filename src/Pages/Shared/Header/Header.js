@@ -2,7 +2,8 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { BsBook } from 'react-icons/bs';
+// import { BsBook } from 'react-icons/bs';
+import kphs from '../../../Images/logo/kphs.png'
 import { FcReadingEbook, FcContacts, FcHome, FcStatistics, FcServices, FcConferenceCall  } from "react-icons/fc";
 import { Link } from 'react-router-dom';
 import './Header.css';
@@ -12,7 +13,7 @@ const Header = () => {
       <div id='home'>
         <Navbar className='nav-ber' collapseOnSelect expand="lg">
         <Container>
-          <Navbar.Brand><Link className=' nav-link' to='/'><h2 className='text-success'><strong>KPHS  <BsBook /></strong></h2></Link></Navbar.Brand>
+          <Navbar.Brand><Link className=' nav-link' to='/'><h2 className='text-success'><strong><img src={kphs} alt="kphs" className='kphs'/> KPHS</strong></h2></Link></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto my-nav">

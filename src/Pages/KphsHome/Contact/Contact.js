@@ -90,24 +90,24 @@ const Contact = () => {
                             <Col md="6">
                                 <Form.Group className="mb-3" controlId="formBasicEmail">
                                     <Form.Label className='fs-5'>নাম</Form.Label>
-                                    <Form.Control name='name' type="text" placeholder="দয়া করে আপনার নাম প্রবেশ করান..." required/>
+                                    <Form.Control name='name' type="text" placeholder="আপনার নাম প্রবেশ করুন..." required/>
                                 </Form.Group>
                             </Col>
                             <Col md="6">
                                 <Form.Group className="mb-3" controlId="formBasicEmail">
                                     <Form.Label className='fs-5'>ইমেইল *</Form.Label>
-                                    <Form.Control name='email' type="email" placeholder="দয়া করে আপনার ইমেইল প্রবেশ করান..." required/>
+                                    <Form.Control name='email' type="email" placeholder="আপনার ইমেইল প্রবেশ করুন..." required/>
                                 </Form.Group>
                             </Col>
                         </Row>
                         
                         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                             <Form.Label className='fs-5'>বিষয়</Form.Label>
-                            <Form.Control name='subject' type="text" placeholder="দয়া করে আপনার বিষয় প্রবেশ করান..." required/>
+                            <Form.Control name='subject' type="text" placeholder="আপনার বিষয় প্রবেশ করুন..." required/>
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                             <Form.Label className='fs-5'>মেসেজ *</Form.Label>
-                            <Form.Control as="textarea" rows={3} name='message' placeholder="দয়া করে আমাদেরকে মেসেজ করুন..." required/>
+                            <Form.Control as="textarea" rows={3} name='message' placeholder="আমাদেরকে মেসেজ করুন..." required/>
                         </Form.Group>
                         
                         <button type="submit" className='my-3 btn outline btn-primary'>মেসেজ পাঠান <BsChatDotsFill className='text-warning'/></button>
