@@ -17,7 +17,7 @@ const About = () => {
                 <h1 className='text-center my-4'><span className='text-success'>About</span> Our School</h1>
                 <hr className='hr1'/>
                 <hr className='hr2'/>
-                <Row>
+                <Row className='my-5'>
                     <Col md='4'>
                         <div data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                             <img src={school} alt="school pic" className='rounded img-fluid p-2' />

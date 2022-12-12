@@ -1,7 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../../Layout/Main";
 import About from "../../Pages/KphsHome/About/About";
-import Blogs from "../../Pages/KphsHome/Blogs/Blogs";
 import Contact from "../../Pages/KphsHome/Contact/Contact";
 import Home from "../../Pages/KphsHome/Home/Home";
 import HomeTop from "../../Pages/KphsHome/HomeTop/HomeTop";
@@ -41,10 +40,6 @@ export const router = createBrowserRouter([
             {
                 path: '/managingcommittee',
                 element: <ManagingCommittee></ManagingCommittee>
-            },
-            {
-                path: '/blogs',
-                element: <Blogs></Blogs>
             },
             {
                 path: '/contact',
