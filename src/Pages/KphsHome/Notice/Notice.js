@@ -61,16 +61,15 @@ const Notice = () => {
         }}>
             <Container>
                 <h1 className='text-center my-3'><span className='text-success'>নোটিশ </span>বোর্ড</h1>
-                <hr className='hr2' />
-                
+                <hr className='hr2' />      
                 <Slider {...settings} className='my-3'>
                     {
-                        notices.map(not =><Col md='6'sm='12' lg='4' className='text-center' key=''>
-                        <div className='mx-3 text-center'>
-                            <Card className=''>
+                        notices.map(not =><Col md='6'sm='12' lg='4' className='text-center' key={not._id}>
+                        <div className='mx-3 text-center notice-div'>
+                            <Card>
                                 <PhotoProvider>
                                     <PhotoView src={not?.img}>
-                                        <img variant="top" src={not?.img} alt="img" className='p-2 h-100 notice-img text-center rounded'/>
+                                        <img variant="top" src={not?.img} alt="img" className='p-2 notice-img text-center rounded'/>
                                     </PhotoView>
                                 </PhotoProvider>
                                 <Card.Body>
@@ -81,8 +80,7 @@ const Notice = () => {
                         </div>
                     </Col>)
                     }
-                </Slider>
-                
+                </Slider>    
             </Container>
         </div>
     );
