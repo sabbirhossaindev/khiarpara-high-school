@@ -60,7 +60,7 @@ const Notice = () => {
             width: '100%'
         }}>
             <Container>
-                <h1 className='text-center my-3'><span className='text-primary'>Notice</span> Board</h1>
+                <h1 className='text-center my-3'><span className='text-success'>Notice</span> Board</h1>
                 <hr className='hr1'/>
                 <hr className='hr2' />
                 

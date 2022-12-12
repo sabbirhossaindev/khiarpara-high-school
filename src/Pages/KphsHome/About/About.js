@@ -14,7 +14,7 @@ const About = () => {
             width: '100%'
         }}>
             <Container>
-                <h1 className='text-center my-4'><span className='text-primary'>About</span> Our School</h1>
+                <h1 className='text-center my-4'><span className='text-success'>About</span> Our School</h1>
                 <hr className='hr1'/>
                 <hr className='hr2'/>
                 <Row>
@@ -30,8 +30,8 @@ const About = () => {
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero quo dolore mollitia aliquid quas ducimus, aliquam exercitationem ipsum dolor culpa impedit alias quisquam inventore eaque. Corrupti, aspernatur cum consequatur sint.
                         </p>
                         <div className='d-flex justify-content-start text-center'>
-                                <Button size="sm" variant="warning" className='mt-4'><a href="#contact" className='text-black github'>Hire me <BsChatSquareDotsFill /></a></Button>
-                                <a className='resume mx-4' href="sabbir-hossain.pdf" download='sabbir-hossain.pdf'><Button variant="outline-primary" size="sm" className='mt-4'>Download Resume <BsDownload /></Button></a> 
+                                <Button size="sm" variant="warning" className='mt-4'><a href="#contact" className='text-black github'>Contact Us  <BsChatSquareDotsFill /></a></Button>
+                                <a className='resume mx-4' href="sabbir-hossain.pdf" download='sabbir-hossain.pdf'><Button variant="outline-primary" size="sm" className='mt-4'>Download About <BsDownload /></Button></a> 
                         </div>
                         </div>
                     </Col>

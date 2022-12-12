@@ -37,7 +37,7 @@ const Contact = () => {
 
     return (
         <div className='p-1 contact-container' id='contact'>
-            <h1 className='text-center my-4'>Get in <span className='text-primary'>Touch</span></h1>
+            <h1 className='text-center my-4'>Get in <span className='text-success'>Touch</span></h1>
                 <hr className='hr1'/>
                 <hr className='hr2'/>
             <Container className='my-5'>
