@@ -24,7 +24,7 @@ const Footer = () => {
             <Container className='py-5 px-5'>
                 <Row className='mx-auto'>
                     <Col md="3">
-                        <h2 className='mx-auto text-center fs-3'>QUICK LINKS</h2>
+                        <h2 className='mx-auto text-center fs-3'>দ্রুত লিঙ্ক</h2>
                             <hr className='hr2'/>
                         <div className='mx-auto text-center'>
                             <a className='menu-link' href="#home"><h5 className='mx-2 nav-link text-secondary'>Home</h5>
@@ -48,7 +48,7 @@ const Footer = () => {
                     </Col>
 
                     <Col md="3">
-                        <h2 className='mx-auto text-center fs-3'>CONTACT US</h2>
+                        <h2 className='mx-auto text-center fs-3'>যোগাযোগ করুন</h2>
                         <hr className='hr2'/>
                         <div className='mx-auto text-center'>
                             <p className='fs-5 text-secondary'>+8801888559287</p>
@@ -59,7 +59,7 @@ const Footer = () => {
 
                     <Col md="3">
                         <div>
-                            <h4 className='mx-auto text-center fs-3'>WE ARE PROVIDE</h4>
+                            <h4 className='mx-auto text-center fs-3'>আমরা প্রদান করি</h4>
                             <hr className='hr2'/>
                             <div className='mx-auto text-center'>
                                 <a className='menu-link text-secondary' href="https://dev-sabbir.web.app"><h3 className='fs-4'>JavasScript</h3></a>
@@ -79,7 +79,7 @@ const Footer = () => {
                     </Col>
                 </Row>
                 <div className='text-light text-center mt-5'>
-                    <h5>&copy;  Khiarpara High School <BsBook className='text-success'/><span className='text-primary mx-2'>{formattedToday}</span>  All Rights Reserved {new Date().getFullYear()}. &trade;</h5>
+                    <h5>&copy;  খিয়ারপাড়া উচ্চ বিদ্যালয় <BsBook className='text-success'/><span className='text-primary mx-2'>{formattedToday}</span>  সমস্ত অধিকার সংরক্ষিত {new Date().getFullYear()}. &trade;</h5>
                 </div>
             </Container>
         </div>
