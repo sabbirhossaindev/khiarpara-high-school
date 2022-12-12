@@ -37,7 +37,7 @@ const Contact = () => {
 
     return (
         <div className='p-1 contact-container' id='contact'>
-            <h1 className='text-center my-4'>Get in <span className='text-success'>Touch</span></h1>
+            <h1 className='text-center my-4'><span className='text-success'>যোগাযোগ </span>করুন</h1>
                 <hr className='hr1'/>
                 <hr className='hr2'/>
             <Container className='my-5'>
@@ -48,8 +48,8 @@ const Contact = () => {
                                 <span className='text-danger'><BsFillTelephoneInboundFill /></span>
                             </h2>
                             <div>
-                                <h2 className='fs-1'>Phone</h2>
-                                <h5 className='text-secondary fs-4'>+088 018-88559287</h5>
+                                <h2 className='fs-2'>ফোন</h2>
+                                <h5 className='text-secondary fs-4'>+8801888-559287</h5>
                             </div>
                         </div>
 
@@ -58,7 +58,7 @@ const Contact = () => {
                                 <span className='text-warning'><BsFillEnvelopeOpenFill /></span>
                             </h2>
                             <div>
-                                <h2 className='fs-1'>Email</h2>
+                                <h2 className='fs-2'>ইমেইল</h2>
                                 <h5 className='text-secondary fs-4'>kp-high-school@gmail.com</h5>
                             </div>
                         </div>
@@ -68,8 +68,8 @@ const Contact = () => {
                                 <span className='text-success'><BsCursorFill /></span>
                             </h2>
                             <div>
-                                <h2 className='fs-1'>Location</h2>
-                                <h5 className='text-secondary fs-4'>Badarganj, Rangpur</h5>
+                                <h2 className='fs-2'>অবস্থান</h2>
+                                <h5 className='text-secondary fs-4'>বদরগঞ্জ, রংপুর</h5>
                             </div>
                         </div>
 
@@ -89,28 +89,28 @@ const Contact = () => {
                         <Row>
                             <Col md="6">
                                 <Form.Group className="mb-3" controlId="formBasicEmail">
-                                    <Form.Label className='fs-5'>Name</Form.Label>
-                                    <Form.Control name='name' type="text" placeholder="Please Enter Your Name" required/>
+                                    <Form.Label className='fs-5'>নাম</Form.Label>
+                                    <Form.Control name='name' type="text" placeholder="দয়া করে আপনার নাম প্রবেশ করান..." required/>
                                 </Form.Group>
                             </Col>
                             <Col md="6">
                                 <Form.Group className="mb-3" controlId="formBasicEmail">
-                                    <Form.Label className='fs-5'>Email *</Form.Label>
-                                    <Form.Control name='email' type="email" placeholder="Please Enter Your Email" required/>
+                                    <Form.Label className='fs-5'>ইমেইল *</Form.Label>
+                                    <Form.Control name='email' type="email" placeholder="দয়া করে আপনার ইমেইল প্রবেশ করান..." required/>
                                 </Form.Group>
                             </Col>
                         </Row>
                         
                         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                            <Form.Label className='fs-5'>Subject</Form.Label>
-                            <Form.Control name='subject' type="text" placeholder="Please Type Your Subject" required/>
+                            <Form.Label className='fs-5'>বিষয়</Form.Label>
+                            <Form.Control name='subject' type="text" placeholder="দয়া করে আপনার বিষয় প্রবেশ করান..." required/>
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                            <Form.Label className='fs-5'>Message *</Form.Label>
-                            <Form.Control as="textarea" rows={3} name='message' placeholder="Message Me Please..." required/>
+                            <Form.Label className='fs-5'>বার্তা *</Form.Label>
+                            <Form.Control as="textarea" rows={3} name='message' placeholder="দয়া করে আমাদেরকে মেসেজ করুন..." required/>
                         </Form.Group>
                         
-                        <button type="submit" className='my-3 btn outline btn-primary'>Sand Message <BsChatDotsFill className='text-warning'/></button>
+                        <button type="submit" className='my-3 btn outline btn-primary'>মেসেজ পাঠান <BsChatDotsFill className='text-warning'/></button>
                         </Form>
                     </Col>
                 </Row>

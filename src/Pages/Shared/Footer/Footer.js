@@ -3,6 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import logo from '../../../Images/logo/logo.png'
 import footer from '../../../Images/logo/footer.png'
 import './Footer.css';
+import { BsBook } from 'react-icons/bs';
 
 
 const Footer = () => {
@@ -39,9 +40,6 @@ const Footer = () => {
                             </a>
 
                             <a className='menu-link' href="#managingCommittee"><h5 className='mx-2 nav-link text-secondary'>Managing Committee</h5>
-                            </a>
-
-                            <a className='menu-link' href="#blogs"><h5 className='mx-2 nav-link text-secondary'>Blogs</h5>
                             </a>
                             
                             <a className='menu-link' href="#contact"><h5 className='mx-2 nav-link text-secondary'>Contact</h5>
@@ -81,7 +79,7 @@ const Footer = () => {
                     </Col>
                 </Row>
                 <div className='text-light text-center mt-5'>
-                    <h5>&copy;  Khiarpara High School <span className='text-primary mx-2'>{formattedToday}</span>  All Rights Reserved {new Date().getFullYear()}. &trade;</h5>
+                    <h5>&copy;  Khiarpara High School <BsBook className='text-success'/><span className='text-primary mx-2'>{formattedToday}</span>  All Rights Reserved {new Date().getFullYear()}. &trade;</h5>
                 </div>
             </Container>
         </div>

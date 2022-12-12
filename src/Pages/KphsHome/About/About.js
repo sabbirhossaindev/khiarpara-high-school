@@ -14,7 +14,7 @@ const About = () => {
             width: '100%'
         }}>
             <Container>
-                <h1 className='text-center my-4'><span className='text-success'>About</span> Our School</h1>
+                <h1 className='text-center my-4'>আমাদের <span className='text-success'> স্কুল </span>সম্পর্কে </h1>
                 <hr className='hr1'/>
                 <hr className='hr2'/>
                 <Row className='my-5'>

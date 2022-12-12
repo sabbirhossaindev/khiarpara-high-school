@@ -12,9 +12,9 @@ const Teachers = () => {
             .then(data =>setProject(data))
     }, [])
     return (
-        <div className='p-1 skill-banner' id='teachers'>
+        <div className='p-1 teacher-container' id='teachers'>
             <Container className='mt-5 my-3' data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                <h1 className='text-center'>Our <span className='text-success'>Teachers</span></h1>
+                <h1 className='text-center'>আমাদের <span className='text-success'>শিক্ষকরা</span></h1>
                 <hr className='hr1'/>
                 <hr className='hr2'/>
                 <Row className='mx-auto gap'>

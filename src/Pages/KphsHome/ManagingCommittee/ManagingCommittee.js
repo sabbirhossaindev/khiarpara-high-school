@@ -14,7 +14,7 @@ const ManagingCommittee = () => {
     return (
         <div className='mt-5 my-5' id='managingCommittee'>
             <Container>
-                <h1 className='text-center'>Our <span className='text-success'>Managing Committee</span></h1>
+                <h1 className='text-center'>আমাদের  <span className='text-success'>ম্যানেজিং কমিটি</span></h1>
                 <hr className='hr1'/>
                 <hr className='hr2'/>
                 <Row className='mx-auto gap'>

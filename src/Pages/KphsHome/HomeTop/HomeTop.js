@@ -9,7 +9,7 @@ import banner6 from '../../../Images/banner/6.jpg';
 import banner7 from '../../../Images/banner/7.jpg';
 import banner8 from '../../../Images/banner/8.jpg';
 import Slider from 'react-slick';
-import { Container } from 'react-bootstrap';
+import { Container} from 'react-bootstrap';
 
 const HomeTop = () => {
     var settings = {

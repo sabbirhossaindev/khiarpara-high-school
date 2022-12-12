@@ -6,13 +6,15 @@
     text-decoration: none;
 }
 
-.my-nav a h5{
+.my-nav a span{
     font-size: 20px;
     font-weight: 500;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+    font-family: Tahoma, sans-serif;
 }
-
 .nav-link{
     font-weight: 900;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+}
+menu-link:hover{
+    color: brown;
 }
