@@ -45,7 +45,7 @@ const Contact = () => {
                     <Col md='5' data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <div className='phone'>
                             <h2 className='mt-3'>
-                                <span className='text-danger'><BsFillTelephoneInboundFill /></span>
+                                <span className='text-primary'><BsFillTelephoneInboundFill /></span>
                             </h2>
                             <div>
                                 <h2 className='fs-2'>ফোন</h2>
@@ -106,7 +106,7 @@ const Contact = () => {
                             <Form.Control name='subject' type="text" placeholder="দয়া করে আপনার বিষয় প্রবেশ করান..." required/>
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                            <Form.Label className='fs-5'>বার্তা *</Form.Label>
+                            <Form.Label className='fs-5'>মেসেজ *</Form.Label>
                             <Form.Control as="textarea" rows={3} name='message' placeholder="দয়া করে আমাদেরকে মেসেজ করুন..." required/>
                         </Form.Group>
                         

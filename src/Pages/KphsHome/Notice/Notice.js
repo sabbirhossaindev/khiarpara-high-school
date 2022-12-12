@@ -61,7 +61,6 @@ const Notice = () => {
         }}>
             <Container>
                 <h1 className='text-center my-3'><span className='text-success'>নোটিশ </span>বোর্ড</h1>
-                <hr className='hr1'/>
                 <hr className='hr2' />
                 
                 <Slider {...settings} className='my-3'>

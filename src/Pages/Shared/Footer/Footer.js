@@ -4,6 +4,7 @@ import logo from '../../../Images/logo/logo.png'
 import footer from '../../../Images/logo/footer.png'
 import './Footer.css';
 import { BsBook } from 'react-icons/bs';
+import { FcReadingEbook, FcContacts, FcHome, FcStatistics, FcServices, FcConferenceCall} from "react-icons/fc";
 
 
 const Footer = () => {
@@ -27,22 +28,22 @@ const Footer = () => {
                         <h2 className='mx-auto text-center fs-3'>দ্রুত লিঙ্ক</h2>
                             <hr className='hr2'/>
                         <div className='mx-auto text-center'>
-                            <a className='menu-link' href="#home"><h5 className='mx-2 nav-link text-secondary'>Home</h5>
+                            <a className='menu-link' href="#home"><span className='mx-2 nav-link text-secondary'><FcHome /> Home</span>
                             </a>
 
-                            <a className='menu-link' href="#about"><h5 className='mx-2 nav-link text-secondary'>About</h5>
+                            <a className='menu-link' href="#about"><span className='mx-2 nav-link text-secondary'><FcServices />About</span>
                             </a>
 
-                            <a className='menu-link' href="#notice"><h5 className='mx-2 nav-link text-secondary'>Notice</h5>
+                            <a className='menu-link' href="#notice"><span className='mx-2 nav-link text-secondary'><FcStatistics />Notice</span>
                             </a>
 
-                            <a className='menu-link' href="#teachers"><h5 className='mx-2 nav-link text-secondary'>Teachers</h5>
+                            <a className='menu-link' href="#teachers"><span className='mx-2 nav-link text-secondary'><FcReadingEbook />Teachers</span>
                             </a>
 
-                            <a className='menu-link' href="#managingCommittee"><h5 className='mx-2 nav-link text-secondary'>Managing Committee</h5>
+                            <a className='menu-link' href="#managingCommittee"><span className='mx-2 nav-link text-secondary'><FcConferenceCall />Managing Committee</span>
                             </a>
                             
-                            <a className='menu-link' href="#contact"><h5 className='mx-2 nav-link text-secondary'>Contact</h5>
+                            <a className='menu-link' href="#contact"><span className='mx-2 nav-link text-secondary'><FcContacts />Contact</span>          
                             </a>
                         </div>      
                     </Col>
@@ -73,7 +74,7 @@ const Footer = () => {
                     </Col>
 
                     <Col md="3" className='mx-auto text-center'>
-                        <h2 className='mx-auto text-center'>KPHS</h2>
+                        <h2 className='mx-auto text-center'>KPHS <BsBook className='text-success'/></h2>
                         <hr className='hr2'/>
                         <img src={logo} alt="aws" className='img-fluid rounded kphs' data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000"/>
                     </Col>
