@@ -16,6 +16,6 @@
     border-radius: 50%;
 }
 .carousel-img{
-    height: 570px;
+    height: 570px !important;
     border-radius: 15px;
 }

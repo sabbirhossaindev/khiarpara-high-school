@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Button, Card, Col, Container, Row } from 'react-bootstrap';
 import './ManagingCommittee.css';
 import { BsEyeFill, BsGithub } from 'react-icons/bs';
+import { PhotoProvider, PhotoView } from 'react-photo-view';
 
 const ManagingCommittee = () => {
     const [project, setProject] = useState([])
@@ -22,7 +23,12 @@ const ManagingCommittee = () => {
                         project?.map(pro =><Col md='6'sm='12' lg='4' className='text-center' key={pro?._id}>
                         <div className='my-4 mx-2 text-center' data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                             <Card className='shadow-lg'>
-                                <img variant="top" src={pro?.img} className='p-3 project-img text-center rounded' alt='img'/>
+                                {/* <img variant="top" src={pro?.img} className='p-3 project-img text-center rounded' alt='img'/> */}
+                                <PhotoProvider>
+                                    <PhotoView src={pro?.img}>
+                                        <img variant="top" src={pro?.img} alt={pro?.title} className='p-2 project-img text-center rounded'/>
+                                    </PhotoView>
+                                </PhotoProvider>
                                 <Card.Body>
                                     <h4 className='text-center'>{pro?.title}</h4>
                                     <p className='text-center fs-5 p-2 text-secondary'>{pro?.description.slice(0, 100) + " ... more"}</p>

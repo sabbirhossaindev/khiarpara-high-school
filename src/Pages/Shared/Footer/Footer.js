@@ -76,7 +76,7 @@ const Footer = () => {
                     <Col md="3" className='mx-auto text-center'>
                         <h2 className='mx-auto text-center'>KPHS <BsBook className='text-success'/></h2>
                         <hr className='hr2'/>
-                        <img src={logo} alt="aws" className='img-fluid rounded kphs' data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000"/>
+                        <img src={logo} alt="aws" className='img-fluid rounded' data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000"/>
                     </Col>
                 </Row>
                 <div className='text-light text-center mt-5'>

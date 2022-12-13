@@ -28,7 +28,7 @@ const HomeTop = () => {
                       <img className='img-fluid go-to-top-icon' src='https://icon-library.com/images/back-to-top-icon-png/back-to-top-icon-png-7.jpg' alt="back-to-top-icon" />
                   </a>
               </div>
-        <Container>
+        <Container className='rounded'>
             <Slider {...settings}>
             <div className='carousel-img rounded'>
                 <img className="d-block w-100 img-fluid carousel-top-img rounded" src={banner1} alt="First slide" />
