@@ -4,9 +4,10 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 // import { BsBook } from 'react-icons/bs';
 import kphs from '../../../Images/logo/kphs.png'
-import { FcReadingEbook, FcContacts, FcHome, FcStatistics, FcServices, FcConferenceCall  } from "react-icons/fc";
+import { FcReadingEbook, FcHome, FcStatistics, FcServices, FcConferenceCall } from "react-icons/fc";
 import { Link } from 'react-router-dom';
 import './Header.css';
+import { BsFillTelephoneFill } from 'react-icons/bs';
 
 const Header = () => {
     return (
@@ -17,22 +18,22 @@ const Header = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto my-nav">
-                <a className='menu-link' href="#home"><span className='mx-2 nav-link text-secondary'><FcHome />Home</span>
+                <a className='menu-link' href="#home"><span className='mx-2 nav-link text-secondary'><FcHome />হোম</span>
                 </a>
 
-                <a className='menu-link' href="#about"><span className='mx-2 nav-link text-secondary'><FcServices />About</span>
+                <a className='menu-link' href="#about"><span className='mx-2 nav-link text-secondary'><FcServices />স্কুল সম্পর্কে</span>
                 </a>
                 
-                <a className='menu-link' href="#notice"><span className='mx-2 nav-link text-secondary'><FcStatistics />Notice</span>
+                <a className='menu-link' href="#notice"><span className='mx-2 nav-link text-secondary'><FcStatistics />নোটিশ</span>
                 </a>
 
-                <a className='menu-link' href="#teachers"><span className='mx-2 nav-link text-secondary'><FcReadingEbook />Teachers</span>
+                <a className='menu-link' href="#teachers"><span className='mx-2 nav-link text-secondary'><FcReadingEbook />শিক্ষকরা</span>
                 </a>
 
-                <a className='menu-link' href="#managingCommittee"><span className='mx-2 nav-link text-secondary'><FcConferenceCall />ManagingCommittee</span>
+                <a className='menu-link' href="#managingCommittee"><span className='mx-2 nav-link text-secondary'><FcConferenceCall />ম্যানেজিং কমিটি</span>
                 </a>
                 
-                <a className='menu-link' href="#contact"><span className='mx-2 nav-link text-secondary'><FcContacts className='text-success'/>Contact</span>
+                <a className='menu-link' href="#contact"><span className='mx-2 nav-link text-secondary'><BsFillTelephoneFill className='text-success'/>যোগাযোগ</span>
                 </a>
             </Nav>  
           </Navbar.Collapse>
