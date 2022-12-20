@@ -80,7 +80,7 @@ const Footer = () => {
                     </Col>
                 </Row>
                 <div className='text-light text-center mt-5'>
-                    <h5>&copy;  খিয়ারপাড়া উচ্চ বিদ্যালয় <BsBook className='text-success'/><span className='text-primary mx-2'>{formattedToday}</span>  সমস্ত অধিকার সংরক্ষিত {new Date().getFullYear()}. &trade;</h5>
+                    <h5>&copy;  খিয়ারপাড়া উচ্চ বিদ্যালয় <span className='text-primary mx-2'>{formattedToday}</span>  সমস্ত অধিকার সংরক্ষিত {new Date().getFullYear()}. &trade;</h5>
                 </div>
             </Container>
         </div>

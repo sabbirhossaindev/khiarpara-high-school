@@ -29,9 +29,12 @@ const About = () => {
                             <br />
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero quo dolore mollitia aliquid quas ducimus, aliquam exercitationem ipsum dolor culpa impedit alias quisquam inventore eaque. Corrupti, aspernatur cum consequatur sint.
                         </p>
+                        <div>
+                        map
+                        </div>
                             <div className='d-flex justify-content-start text-center'>
-                                    <Button size="sm" variant="warning" className='mt-4'><a href="#contact" className='text-black github'>Contact Us  <BsChatSquareDotsFill /></a></Button>
-                                    <a className='resume mx-4' href="sabbir-hossain.pdf" download='sabbir-hossain.pdf'><Button variant="outline-primary" size="sm" className='mt-4'>Download About <BsDownload /></Button></a> 
+                                    <Button size="sm" variant="warning" className='mt-4'><a href="#contact" className='text-black github'>যোগাযোগ করুন  <BsChatSquareDotsFill /></a></Button>
+                                    <a className='resume mx-4' href="sabbir-hossain.pdf" download='sabbir-hossain.pdf'><Button variant="outline-primary" size="sm" className='mt-4'>ডাউনলোড করুন স্কুল  সম্পর্কে <BsDownload /></Button></a> 
                             </div>
                         </div>
                     </Col>
