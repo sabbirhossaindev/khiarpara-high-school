@@ -3,7 +3,7 @@ import { Button, Col, Container, Row } from 'react-bootstrap';
 import './About.css';
 import school from '../../../Images/logo/logo.png'
 import fream1 from '../../../Images/logo/fream1.jpg';
-import { BsChatSquareDotsFill, BsDownload } from 'react-icons/bs';
+import { BsChatSquareDotsFill} from 'react-icons/bs';
 
 const About = () => {
     return (
@@ -30,11 +30,10 @@ const About = () => {
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero quo dolore mollitia aliquid quas ducimus, aliquam exercitationem ipsum dolor culpa impedit alias quisquam inventore eaque. Corrupti, aspernatur cum consequatur sint.
                         </p>
                         <div>
-                        map
+                        <p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d40688.68590910029!2d89.01422881211505!3d25.657842279053696!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fcb5fc2d217507%3A0xefadb112e2be5a6e!2skhiar%20para%20high%20school!5e0!3m2!1sen!2sbd!4v1671590268648!5m2!1sen!2sbd" width="100%" height="150" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
                         </div>
                             <div className='d-flex justify-content-start text-center'>
-                                    <Button size="sm" variant="warning" className='mt-4'><a href="#contact" className='text-black github'>যোগাযোগ করুন  <BsChatSquareDotsFill /></a></Button>
-                                    <a className='resume mx-4' href="sabbir-hossain.pdf" download='sabbir-hossain.pdf'><Button variant="outline-primary" size="sm" className='mt-4'>ডাউনলোড করুন স্কুল  সম্পর্কে <BsDownload /></Button></a> 
+                                    <Button size="sm" variant="warning" className='mt-1'><a href="#contact" className='text-black github'>যোগাযোগ করুন  <BsChatSquareDotsFill /></a></Button> 
                             </div>
                         </div>
                     </Col>

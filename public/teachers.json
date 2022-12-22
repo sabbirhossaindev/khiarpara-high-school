@@ -1,7 +1,92 @@
 [
     {
-        "img": "...",
-        "name": "Zakir Hossain",
+        "img": "",
+        "name": "মো: জাকির হোসাইন",
+        "position": "প্রধান শিক্ষক",
+        "phone": "017",
+        "details": "It is a long established fact that a reader will be distracted by the readable content of looking a"
+    },
+    {
+        "img": "",
+        "name": "মো: মিজানুর রহমান মিজান",
+        "position": "সহকারি প্রধান",
+        "phone": "017",
+        "details": "It is a long established fact that a reader will be distracted by the readable content of looking a"
+    },
+    {
+        "img": "",
+        "name": "মো: আহসান হাবীব",
+        "position": "সহকারি শিক্ষক",
+        "phone": "017",
+        "details": "It is a long established fact that a reader will be distracted by the readable content of looking a"
+    },
+    {
+        "img": "",
+        "name": "মো: সাদিকুল ইসলাম",
+        "position": "সহকারি শিক্ষক",
+        "phone": "017",
+        "details": "It is a long established fact that a reader will be distracted by the readable content of looking a"
+    },
+    {
+        "img": "",
+        "name": "মোছা: আনিসা বেগম",
+        "position": "সহকারি শিক্ষক",
+        "phone": "017",
+        "details": "It is a long established fact that a reader will be distracted by the readable content of looking a"
+    },
+    {
+        "img": "",
+        "name": "মো: শফিকুর রহমান",
+        "position": "সহকারি শিক্ষক",
+        "phone": "017",
+        "details": "It is a long established fact that a reader will be distracted by the readable content of looking a"
+    },
+    {
+        "img": "",
+        "name": "শ্রী মানিক রায়",
+        "position": "সহকারি শিক্ষক",
+        "phone": "017",
+        "details": "It is a long established fact that a reader will be distracted by the readable content of looking a"
+    },
+    {
+        "img": "",
+        "name": "মো: আব্দুল মালেক",
+        "position": "সহকারি শিক্ষক",
+        "phone": "017",
+        "details": "It is a long established fact that a reader will be distracted by the readable content of looking a"
+    },
+    {
+        "img": "",
+        "name": "মোছা: তানজিলা বেগম",
+        "position": "সহকারি শিক্ষক",
+        "phone": "017",
+        "details": "It is a long established fact that a reader will be distracted by the readable content of looking a"
+    },
+    {
+        "img": "",
+        "name": "মো: মোরশেদ রহমান",
+        "position": "সহকারি শিক্ষক",
+        "phone": "017",
+        "details": "It is a long established fact that a reader will be distracted by the readable content of looking a"
+    },
+    {
+        "img": "",
+        "name": "মো: আউয়াল রহমান",
+        "position": "সহকারি শিক্ষক",
+        "phone": "017",
+        "details": "It is a long established fact that a reader will be distracted by the readable content of looking a"
+    },
+    {
+        "img": "",
+        "name": "মো: আরিফ রহমান",
+        "position": "ল্যাব সহকারি",
+        "phone": "017",
+        "details": "It is a long established fact that a reader will be distracted by the readable content of looking a"
+    },
+    {
+        "img": "",
+        "name": "শ্রী সন্তোষ রায়",
+        "position": "রেজিস্টার শিক্ষক",
         "phone": "017",
         "details": "It is a long established fact that a reader will be distracted by the readable content of looking a"
     }

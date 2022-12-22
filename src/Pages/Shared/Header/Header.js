@@ -4,10 +4,10 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 // import { BsBook } from 'react-icons/bs';
 import kphs from '../../../Images/logo/kphs.png'
-import { FcReadingEbook, FcHome, FcStatistics, FcServices, FcConferenceCall } from "react-icons/fc";
+import { FcReadingEbook, FcHome, FcStatistics, FcConferenceCall } from "react-icons/fc";
 import { Link } from 'react-router-dom';
 import './Header.css';
-import { BsFillTelephoneFill } from 'react-icons/bs';
+import { BsFillTelephoneFill, BsBuilding } from 'react-icons/bs';
 
 const Header = () => {
     return (
@@ -21,7 +21,7 @@ const Header = () => {
                 <a className='menu-link' href="#home"><span className='mx-2 nav-link text-secondary'><FcHome />হোম</span>
                 </a>
 
-                <a className='menu-link' href="#about"><span className='mx-2 nav-link text-secondary'><FcServices />স্কুল সম্পর্কে</span>
+                <a className='menu-link' href="#about"><span className='mx-2 nav-link text-secondary'><BsBuilding className='text-success'/> স্কুল</span>
                 </a>
                 
                 <a className='menu-link' href="#notice"><span className='mx-2 nav-link text-secondary'><FcStatistics />নোটিশ</span>
