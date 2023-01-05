@@ -22,5 +22,9 @@
     {
         "img": "http://localhost:3000/static/media/logo.24b77d163efae065de1d.png",
         "title": "Cricket Final"
+    },
+    {
+        "img": "http://localhost:3000/static/media/logo.24b77d163efae065de1d.png",
+        "title": "football Final"
     }
 ]
