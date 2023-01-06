@@ -26,6 +26,9 @@ const Header = () => {
                 
                 <a className='menu-link' href="#notice"><span className='mx-2 nav-link text-secondary'><FcStatistics />নোটিশ</span>
                 </a>
+                
+                <a className='menu-link' href="#introduction"><span className='mx-2 nav-link text-secondary'><FcStatistics />স্কুল পরিচিতি</span>
+                </a>
 
                 <a className='menu-link' href="#teachers"><span className='mx-2 nav-link text-secondary'><FcReadingEbook />শিক্ষকরা</span>
                 </a>
