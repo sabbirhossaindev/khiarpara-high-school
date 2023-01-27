@@ -12,7 +12,7 @@ const Introduction = () => {
         fetch('introduction.json')
             .then(res => res.json())
             .then(data => {
-                console.log(data);
+                console.log('data',data);
                 setIntroduction(data)
             })
     }, [])
