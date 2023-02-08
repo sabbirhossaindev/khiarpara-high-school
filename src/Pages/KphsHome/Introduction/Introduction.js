@@ -55,6 +55,9 @@ const Introduction = () => {
         // <div className='p-1 introduction-container' id='introduction'>
         //     <h2>Introduction</h2>
         // </div>
+        // <div className='p-1 introduction-container' id='introduction'>
+        //     <h2>Introduction</h2>
+        // </div>
         <div className='p-1 introduction' id='introduction'>
             <Container>
                 <h1 className='text-center my-3'><span className='text-success'>স্কুল </span>পরিচিতি</h1>
