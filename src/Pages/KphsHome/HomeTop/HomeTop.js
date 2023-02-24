@@ -14,13 +14,13 @@ import { Container} from 'react-bootstrap';
 const HomeTop = () => {
     
     return (
-        <div className='m-1 home-Banner rounded' id='home'>
+        <div className='home-Banner rounded' id='home'>
             <div className="position-fixed fixed-bottom text-end me-4 mb-4">
                   <a href="#home">
                       <img className='img-fluid go-to-top-icon' src='https://icon-library.com/images/back-to-top-icon-png/back-to-top-icon-png-7.jpg' alt="back-to-top-icon" />
                   </a>
               </div>
-            <Container className='rounded'>
+            <Container className=''>
                 <Carousel>
                     <Carousel.Item>
                         <div className='carousel-img'>
@@ -94,9 +94,7 @@ const HomeTop = () => {
                             />
                         </div>
                     </Carousel.Item>
-                    
-                    
-                    </Carousel>
+                </Carousel>
             </Container>
         </div>
     );
