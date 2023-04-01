@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import './Contact.css';
-import { BsFillTelephoneInboundFill, BsFillEnvelopeOpenFill, BsCursorFill, BsFacebook, BsInstagram, BsLinkedin, BsGlobe, BsChatDotsFill} from "react-icons/bs";
+import { BsFillTelephoneInboundFill, BsFillEnvelopeOpenFill, BsCursorFill, BsFacebook, BsInstagram, BsLinkedin, BsGlobe, BsChatDotsFill, BsBuilding } from "react-icons/bs";
 import Form from 'react-bootstrap/Form';
 import { toast } from 'react-toastify';
 
@@ -49,7 +49,7 @@ const Contact = () => {
                             </h2>
                             <div>
                                 <h2 className='fs-2'>ফোন</h2>
-                                <h5 className='text-secondary fs-4'>+8801888-559287</h5>
+                                <h5 className='text-secondary fs-4'>+8801724-085855</h5>
                             </div>
                         </div>
 
@@ -59,7 +59,17 @@ const Contact = () => {
                             </h2>
                             <div>
                                 <h2 className='fs-2'>ইমেইল</h2>
-                                <h5 className='text-secondary fs-4'>kp-high-school@gmail.com</h5>
+                                <h5 className='text-secondary fs-4'>hmzakir1972@gmail.com</h5>
+                            </div>
+                        </div>
+
+                        <div className='email'>
+                            <h2 className='mt-3'>
+                                <span className='text-danger'><BsBuilding /></span>
+                            </h2>
+                            <div>
+                                <h4 className='fs-3'>বিদ্যালয় CODE</h4>
+                                <h5 className='text-secondary fs-5'>5678</h5>
                             </div>
                         </div>
 
