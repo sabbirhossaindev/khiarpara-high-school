@@ -23,7 +23,7 @@ const Notice = () => {
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 4000,
+        autoplaySpeed: 3000,
         pauseOnHover: true,
         responsive: [
           {
@@ -44,7 +44,7 @@ const Notice = () => {
             }
           },
           {
-            breakpoint: 480,
+            breakpoint: 300,
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1
@@ -60,7 +60,7 @@ const Notice = () => {
             width: '100%'
         }}>
             <Container>
-                <h1 className='text-center my-3'><span className='text-success'>নোটিশ </span>বোর্ড</h1>
+                <h1 className='text-center my-3 mt-5'><span className='text-success'>নোটিশ </span>বোর্ড</h1>
                 <hr className='hr2' />      
                 <Slider {...settings} className='my-3'>
                     {

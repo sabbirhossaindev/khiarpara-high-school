@@ -14,18 +14,18 @@ import { Container} from 'react-bootstrap';
 const HomeTop = () => {
     
     return (
-        <div className='home-Banner rounded' id='home'>
+        <div className='home-Banner rounded p-1' id='home'>
             <div className="position-fixed fixed-bottom text-end me-4 mb-4">
                   <a href="#home">
                       <img className='img-fluid go-to-top-icon' src='https://icon-library.com/images/back-to-top-icon-png/back-to-top-icon-png-7.jpg' alt="back-to-top-icon" />
                   </a>
               </div>
-            <Container className=''>
+            <Container className='my-3'>
                 <Carousel>
                     <Carousel.Item>
                         <div className='carousel-img'>
                             <img
-                            className="d-block w-100 rounded"
+                            className="d-block w-100 rounded kphs-picture"
                             src={banner1}
                             alt="First slide"
                             />
@@ -34,7 +34,7 @@ const HomeTop = () => {
                     <Carousel.Item>
                         <div className='carousel-img'>
                             <img
-                            className="d-block w-100 rounded"
+                            className="d-block w-100 rounded kphs-picture"
                             src={banner2}
                             alt="First slide"
                             />
@@ -43,7 +43,7 @@ const HomeTop = () => {
                     <Carousel.Item>
                         <div className='carousel-img'>
                             <img
-                            className="d-block w-100 rounded"
+                            className="d-block w-100 rounded kphs-picture"
                             src={banner3}
                             alt="First slide"
                             />
@@ -52,7 +52,7 @@ const HomeTop = () => {
                     <Carousel.Item>
                         <div className='carousel-img'>
                             <img
-                            className="d-block w-100 rounded"
+                            className="d-block w-100 rounded kphs-picture"
                             src={banner4}
                             alt="First slide"
                             />
@@ -61,7 +61,7 @@ const HomeTop = () => {
                     <Carousel.Item>
                         <div className='carousel-img'>
                             <img
-                            className="d-block w-100 rounded"
+                            className="d-block w-100 rounded kphs-picture"
                             src={banner5}
                             alt="First slide"
                             />
@@ -70,7 +70,7 @@ const HomeTop = () => {
                     <Carousel.Item>
                         <div className='carousel-img'>
                             <img
-                            className="d-block w-100 rounded"
+                            className="d-block w-100 rounded kphs-picture"
                             src={banner6}
                             alt="First slide"
                             />
@@ -79,7 +79,7 @@ const HomeTop = () => {
                     <Carousel.Item>
                         <div className='carousel-img'>
                             <img
-                            className="d-block w-100 rounded"
+                            className="d-block w-100 rounded kphs-picture"
                             src={banner7}
                             alt="First slide"
                             />
@@ -88,7 +88,7 @@ const HomeTop = () => {
                     <Carousel.Item>
                         <div className='carousel-img'>
                             <img
-                            className="d-block w-100 rounded"
+                            className="d-block w-100 rounded kphs-picture"
                             src={banner8}
                             alt="First slide"
                             />

@@ -4,11 +4,10 @@ import About from "../../Pages/KphsHome/About/About";
 import Contact from "../../Pages/KphsHome/Contact/Contact";
 import Home from "../../Pages/KphsHome/Home/Home";
 import HomeTop from "../../Pages/KphsHome/HomeTop/HomeTop";
-import Introduction from "../../Pages/KphsHome/Introduction/Introduction";
-import ManagingCommittee from "../../Pages/KphsHome/ManagingCommittee/ManagingCommittee";
 import Notice from "../../Pages/KphsHome/Notice/Notice";
 import Teachers from "../../Pages/KphsHome/Teachers/Teachers";
 import NotFound from "../../Pages/Shared/NotFound/NotFound";
+import Classes from "../../Pages/KphsHome/Classes/Classes";
 
 
 
@@ -35,16 +34,12 @@ export const router = createBrowserRouter([
                 element: <Notice></Notice>
             },
             {
-                path: '/introduction',
-                element: <Introduction></Introduction>
-            },
-            {
                 path: '/teachers',
                 element: <Teachers></Teachers>
             },
             {
-                path: '/managingcommittee',
-                element: <ManagingCommittee></ManagingCommittee>
+                path: '/classes',
+                element: <Classes></Classes>
             },
             {
                 path: '/contact',

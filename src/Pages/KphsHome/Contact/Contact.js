@@ -4,6 +4,7 @@ import './Contact.css';
 import { BsFillTelephoneInboundFill, BsFillEnvelopeOpenFill, BsCursorFill, BsFacebook, BsInstagram, BsLinkedin, BsGlobe, BsChatDotsFill, BsBuilding } from "react-icons/bs";
 import Form from 'react-bootstrap/Form';
 import { toast } from 'react-toastify';
+import banner from '../../../Images/logo/banner.jpg';
 
 
 const Contact = () => {
@@ -36,7 +37,11 @@ const Contact = () => {
     }
 
     return (
-        <div className='p-1 contact-container' id='contact'>
+        <div className='p-1' id='contact' style={{
+            background: `url(${banner})`,
+            backgroundSize: 'cover',
+            width: '100%'
+        }}>
             <h1 className='text-center my-4'><span className='text-success'>যোগাযোগ </span>করুন</h1>
                 <hr className='hr1'/>
                 <hr className='hr2'/>
@@ -48,8 +53,8 @@ const Contact = () => {
                                 <span className='text-primary'><BsFillTelephoneInboundFill /></span>
                             </h2>
                             <div>
-                                <h2 className='fs-2'>ফোন</h2>
-                                <h5 className='text-secondary fs-4'>+8801724-085855</h5>
+                                <h5 className='fs-3'>ফোন</h5>
+                                <h6 className='text-secondary fs-4'>০১৭২৪-০৮৫৮৫৫</h6>
                             </div>
                         </div>
 
@@ -58,8 +63,18 @@ const Contact = () => {
                                 <span className='text-warning'><BsFillEnvelopeOpenFill /></span>
                             </h2>
                             <div>
-                                <h2 className='fs-2'>ইমেইল</h2>
-                                <h5 className='text-secondary fs-4'>hmzakir1972@gmail.com</h5>
+                                <h5 className='fs-3'>ইমেইল</h5>
+                                <h6 className='text-secondary fs-4'>hmzakir1972@gmail.com</h6>
+                            </div>
+                        </div>
+
+                        <div className='mpo'>
+                            <h2 className='mt-3'>
+                                <span className='text-danger'><BsBuilding /></span>
+                            </h2>
+                            <div>
+                                <h5 className='fs-3'>বিদ্যালয় কোড</h5>
+                                <h6 className='text-secondary fs-5'>৫৬৭৮</h6>
                             </div>
                         </div>
 
@@ -68,8 +83,8 @@ const Contact = () => {
                                 <span className='text-danger'><BsBuilding /></span>
                             </h2>
                             <div>
-                                <h4 className='fs-3'>বিদ্যালয় CODE</h4>
-                                <h5 className='text-secondary fs-5'>5678</h5>
+                                <h5 className='fs-3'>এমপিও কোড</h5>
+                                <h6 className='text-secondary fs-5'>৯১০১১৫১৩০৩</h6>
                             </div>
                         </div>
 
@@ -78,8 +93,8 @@ const Contact = () => {
                                 <span className='text-success'><BsCursorFill /></span>
                             </h2>
                             <div>
-                                <h2 className='fs-2'>অবস্থান</h2>
-                                <h5 className='text-secondary fs-4'>বদরগঞ্জ, রংপুর</h5>
+                                <h5 className='fs-3'>অবস্থান</h5>
+                                <h6 className='text-secondary fs-4'>বদরগঞ্জ, রংপুর। </h6>
                             </div>
                         </div>
 

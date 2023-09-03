@@ -21,19 +21,19 @@ const Header = () => {
                 <a className='menu-link' href="#home"><span className='mx-2 nav-link text-secondary'><FcHome />হোম</span>
                 </a>
 
-                <a className='menu-link' href="#about"><span className='mx-2 nav-link text-secondary'><BsBuilding className='text-success'/> স্কুল</span>
+                <a className='menu-link' href="#about"><span className='mx-2 nav-link text-secondary'><BsBuilding className='text-success'/> স্কুল সম্পর্কে</span>
                 </a>
                 
                 <a className='menu-link' href="#notice"><span className='mx-2 nav-link text-secondary'><FcStatistics />নোটিশ</span>
-                </a>
-                
-                <a className='menu-link' href="#introduction"><span className='mx-2 nav-link text-secondary'><FcStatistics />স্কুল পরিচিতি</span>
                 </a>
 
                 <a className='menu-link' href="#teachers"><span className='mx-2 nav-link text-secondary'><FcReadingEbook />শিক্ষকরা</span>
                 </a>
 
-                <a className='menu-link' href="#managingCommittee"><span className='mx-2 nav-link text-secondary'><FcConferenceCall />ম্যানেজিং কমিটি</span>
+                <a className='menu-link' href="#classes"><span className='mx-2 nav-link text-secondary'><FcReadingEbook />শিক্ষার্থীরা</span>
+                </a>
+
+                <a className='menu-link' href="#managingCommittee"><span className='mx-2 nav-link text-secondary'><FcConferenceCall />ম্যানেজিং</span>
                 </a>
                 
                 <a className='menu-link' href="#contact"><span className='mx-2 nav-link text-secondary'><BsFillTelephoneFill className='text-success'/>যোগাযোগ</span>

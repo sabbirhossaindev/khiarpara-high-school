@@ -1,21 +1,21 @@
 import React, { useEffect, useState } from 'react';
-import { Button, Card, Col, Container, Row } from 'react-bootstrap';
+import {Card, Col, Container, Row } from 'react-bootstrap';
 import './Teachers.css';
-import { BsEyeFill, BsForwardFill, BsGithub} from 'react-icons/bs';
-import { Cursor, useTypewriter } from 'react-simple-typewriter'
+import { Cursor, useTypewriter } from 'react-simple-typewriter';
+import { BsArrowRightCircleFill, BsFillTelephoneFill, BsForwardFill, BsPersonFill } from 'react-icons/bs';
 
 const Teachers = () => {
     const [text] = useTypewriter({
-        words: ['মো: জাকির হোসাইন','মো: মিজানুর রহমান মিজান', 'মো: আহসান হাবীব', 'মো: সাদিকুল ইসলাম', 'শ্রী মানিক রায়', 'মোছা: আনিসা বেগম', 'মো: আব্দুল মালেক', 'মো: শফিকুর রহমান', 'মো: আরিফ রহমান', 'মোছা: তানজিলা বেগম', 'মো: আউয়াল রহমান', 'মো: মোরশেদ রহমান', 'শ্রী সন্তোষ রায়',],
+        words: ['মো: জাকির হোসাইন', 'মো: মিজানুর রহমান', 'মোছা: আনিসা খাতুন', 'মো: আব্দুল মালেক সরকার', 'মো: আউয়াল আলী', 'মো: শফিকুর রহমান', 'মো: সাদেকুল ইসলাম', 'মো: আহসান হাবীব', 'মো: মোরশেদ আলী', 'মো: আব্দুস সালাম', 'মো: বাদশা আলমগীর', 'মানিক চন্দ্র রায়', 'মোছা: তানজিলা বানু', 'সন্তোষ কুমার রায়', 'মো: আসাদুজ্জামান আরিফ'],
         loop: Infinity,
         onLoopDone: () => console.log(`loop completed after Infinity runs.`)
-    })
-    const [project, setProject] = useState([])
+    });
+    const [teacher, setTeacher] = useState([])
 
     useEffect(() => {
-        fetch('https://dev-sabbir-server.vercel.app/projectsCollections')
+        fetch('teachers.json')
             .then(res => res.json())
-            .then(data =>setProject(data))
+            .then(data => setTeacher(data))
     }, [])
     return (
         <div className='p-1 teacher-container' id='teachers'>
@@ -25,25 +25,23 @@ const Teachers = () => {
                 <hr className='hr2'/>
                 <Row className='mx-auto gap'>
                     <div>
-                        <p className='text-center fs-5'>আমাদের শিক্ষকরা অনেক পরিশ্রমী । তারা তাদের সময়গুলো শিক্ষার্থীদের সাথে নিত্যনতুন জিনিসগুলো সম্পর্কে গভীরভাবে আলোচনা করে পড়াশোনার পাশাপাশি। খিয়ারপাড়া উচ্চ বিদ্যালয় এর শিক্ষকদের সম্পর্কে সংক্ষিপ্ত আকারে বিবরণ । উল্লেখযোগ্য আমাদের শিক্ষক গুলো হল:- <br />
+                        <p className='text-center fs-5'>আমাদের শিক্ষকরা অনেক পরিশ্রমী । তারা তাদের সময়গুলো শিক্ষার্থীদের সাথে নিত্য নতুন জিনিসগুলো সম্পর্কে গভীর ভাবে আলোচলনা করে। খিয়ারপাড়া উচ্চ বিদ্যালয় এর শিক্ষকদের সম্পর্কে সংক্ষিপ্ত আকারে বিবরণ। উল্লেখযোগ্য আমাদের শিক্ষক গুলো হলো:- <br />
                         <span className='fs-4 mt-5 text-cursor text-center'><BsForwardFill className='text-danger'/><span style={{ color: 'green'}}>{text}</span></span>
                             <Cursor cursorColor='green' />
                         </p>
                         
                     </div>
                     {
-                        project?.map(pro =><Col md='6'sm='12' lg='4' className='text-center' key={pro?._id}>
+                        teacher?.map(teach =><Col md='6'sm='12' lg='4' className='text-center'>
                         <div className='my-4 mx-2 text-center' data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                             <Card className='shadow-lg'>
-                                <img variant="top" src={pro?.img} className='p-3 project-img text-center rounded' alt='img'/>
+                                <img variant="top" src={teach?.img} className='p-3 project-img text-center rounded' alt='img'/>
                                 <Card.Body>
-                                    <h4 className='text-center'>{pro?.title}</h4>
-                                    <p className='text-center fs-5 p-2 text-secondary'>{pro?.description.slice(0, 100) + " ... more"}</p>
-                                    <div className='d-flex justify-content-around text-center'>
-                                        <a href={pro?.gitLink}><Button variant='outline-secondary' size="sm"><BsGithub /> GitHub</Button></a>
-
-                                        <a href={pro?.liveSide}><Button variant='secondary' size="sm"><BsEyeFill /> LiveSite</Button></a>
-                                    </div>
+                                    <h5 className='text-center'>নামঃ {teach?.name}</h5>
+                                    <h6 className='text-center text-danger'><BsPersonFill className='text-success mx-1'/>{teach?.position}</h6>
+                                    <p className='text-center'>ইনডেক্স নং<BsArrowRightCircleFill className='text-success mx-1'/>  {teach?.IndexNo}</p>
+                                    <h5 className='text-center'><BsFillTelephoneFill className='text-success mx-1'/>{teach?.phone}</h5>
+                                    <p className='text-center fs-5 p-2 text-secondary'>{teach?.details.slice(0, 100) + " ... more"}</p>
                                 </Card.Body>
                             </Card>
                         </div>

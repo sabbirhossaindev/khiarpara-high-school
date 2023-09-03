@@ -1,100 +1,136 @@
 [
-    {
-        "img": "317999788_142010871958145_8995477215554804830_n-removebg-preview.png",
-        "name": "মো: জাকির হোসাইন",
-        "position": "প্রধান শিক্ষক",
-        "phone": "017",
-        "details": "It is a long established fact that a reader will be distracted by the readable content of looking a"
-    },
-    {
-        "img": "317999788_142010871958145_8995477215554804830_n-removebg-preview.png",
-        "name": "মো: মিজানুর রহমান মিজান",
-        "position": "সহকারি প্রধান",
-        "phone": "017",
-        "details": "It is a long established fact that a reader will be distracted by the readable content of looking a"
-    },
-    {
-        "img": "317999788_142010871958145_8995477215554804830_n-removebg-preview.png",
-        "name": "মো: আহসান হাবীব",
-        "position": "সহকারি শিক্ষক",
-        "phone": "017",
-        "details": "It is a long established fact that a reader will be distracted by the readable content of looking a"
-    },
-    {
-        "img": "317999788_142010871958145_8995477215554804830_n-removebg-preview.png",
-        "name": "মো: সাদিকুল ইসলাম",
-        "position": "সহকারি শিক্ষক",
-        "phone": "017",
-        "details": "It is a long established fact that a reader will be distracted by the readable content of looking a"
-    },
-    {
-        "img": "317999788_142010871958145_8995477215554804830_n-removebg-preview.png",
-        "name": "মোছা: আনিসা বেগম",
-        "position": "সহকারি শিক্ষক",
-        "phone": "017",
-        "details": "It is a long established fact that a reader will be distracted by the readable content of looking a"
-    },
-    {
-        "img": "317999788_142010871958145_8995477215554804830_n-removebg-preview.png",
-        "name": "মো: শফিকুর রহমান",
-        "position": "সহকারি শিক্ষক",
-        "phone": "017",
-        "details": "It is a long established fact that a reader will be distracted by the readable content of looking a"
-    },
-    {
-        "img": "317999788_142010871958145_8995477215554804830_n-removebg-preview.png",
-        "name": "শ্রী মানিক রায়",
-        "position": "সহকারি শিক্ষক",
-        "phone": "017",
-        "details": "It is a long established fact that a reader will be distracted by the readable content of looking a"
-    },
-    {
-        "img": "317999788_142010871958145_8995477215554804830_n-removebg-preview.png",
-        "name": "মো: আব্দুল মালেক",
-        "position": "সহকারি শিক্ষক",
-        "phone": "017",
-        "details": "It is a long established fact that a reader will be distracted by the readable content of looking a"
-    },
-    {
-        "img": "317999788_142010871958145_8995477215554804830_n-removebg-preview.png",
-        "name": "মোছা: তানজিলা বেগম",
-        "position": "সহকারি শিক্ষক",
-        "phone": "017",
-        "details": "It is a long established fact that a reader will be distracted by the readable content of looking a"
-    },
-    {
-        "img": "317999788_142010871958145_8995477215554804830_n-removebg-preview.png",
-        "name": "মো: মোরশেদ রহমান",
-        "position": "সহকারি শিক্ষক",
-        "phone": "017",
-        "details": "It is a long established fact that a reader will be distracted by the readable content of looking a"
-    },
-    {
-        "img": "317999788_142010871958145_8995477215554804830_n-removebg-preview.png",
-        "name": "মো: আউয়াল রহমান",
-        "position": "সহকারি শিক্ষক",
-        "phone": "017",
-        "details": "It is a long established fact that a reader will be distracted by the readable content of looking a"
-    },
-    {
-        "img": "317999788_142010871958145_8995477215554804830_n-removebg-preview.png",
-        "name": "মো: আরিফ রহমান",
-        "position": "ল্যাব সহকারি",
-        "phone": "017",
-        "details": "It is a long established fact that a reader will be distracted by the readable content of looking a"
-    },
-    {
-        "img": "317999788_142010871958145_8995477215554804830_n-removebg-preview.png",
-        "name": "শ্রী সন্তোষ রায়",
-        "position": "রেজিস্টার শিক্ষক",
-        "phone": "017",
-        "details": "It is a long established fact that a reader will be distracted by the readable content of looking a"
-    },
-    {
-        "img": "317999788_142010871958145_8995477215554804830_n-removebg-preview.png",
-        "name": "শ্রী",
-        "position": "রেজিস্টার শিক্ষক",
-        "phone": "017",
-        "details": "It is a long established fact that a reader will be distracted by the readable content of looking a"
-    }
+  {
+    "img": "317999788_142010871958145_8995477215554804830_n-removebg-preview.png",
+    "name": "মো: জাকির হোসাইন",
+    "position": "প্রধান শিক্ষক",
+    "IndexNo": "৫৪০৫৮৬",
+    "phone": "০১৭২৪-০৮৫৮৫৫",
+    "details": "It is a long established fact that a reader will be distracted by the readable content of looking a"
+  },
+  {
+    "img": "317999788_142010871958145_8995477215554804830_n-removebg-preview.png",
+    "name": "মো: মিজানুর রহমান",
+    "position": "সহকারি প্রধান শিক্ষক",
+    "IndexNo": "১০৩২৮২৫",
+    "phone": "০১৭১৭-৭৯৯৩৫০",
+    "title": "",
+    "details": "It is a long established fact that a reader will be distracted by the readable content of looking a"
+  },
+  {
+    "img": "317999788_142010871958145_8995477215554804830_n-removebg-preview.png",
+    "name": "মোছা: আনিসা খাতুন",
+    "position": "সহকারি শিক্ষক",
+    "IndexNo": "৫৪০৫৮৮",
+    "phone": "০১৭৪৫-৬৭১০৪০",
+    "title": "সমাজ বাংলা",
+    "details": "It is a long established fact that a reader will be distracted by the readable content of looking a"
+  },
+  {
+    "img": "317999788_142010871958145_8995477215554804830_n-removebg-preview.png",
+    "name": "মো: আব্দুল মালেক সরকার",
+    "position": "সহকারি শিক্ষক",
+    "IndexNo": "১০০৮২৯২",
+    "phone": "০১৭২৩-০৭৩৬১২",
+    "title": "বাংলা",
+    "details": "It is a long established fact that a reader will be distracted by the readable content of looking a"
+  },
+  {
+    "img": "317999788_142010871958145_8995477215554804830_n-removebg-preview.png",
+    "name": "মো: আউয়াল আলী",
+    "position": "সহকারি শিক্ষক",
+    "IndexNo": "১০১৮১২১",
+    "phone": "০১৭২২-৯৩৪৫৪০",
+    "title": "ইংলিশ",
+    "details": "It is a long established fact that a reader will be distracted by the readable content of looking a"
+  },
+  {
+    "img": "317999788_142010871958145_8995477215554804830_n-removebg-preview.png",
+    "name": "মো: শফিকুর রহমান",
+    "position": "সহকারি শিক্ষক",
+    "IndexNo": "৫৪০৫৮৭",
+    "phone": "০১৭৪৩৬৬৬১৭৬",
+    "title": "ইসলাম ধর্ম",
+    "details": "It is a long established fact that a reader will be distracted by the readable content of looking a"
+  },
+  {
+    "img": "317999788_142010871958145_8995477215554804830_n-removebg-preview.png",
+    "name": "মো: সাদেকুল ইসলাম",
+    "position": "সহকারি শিক্ষক",
+    "IndexNo": "৫৪০৫৮৯",
+    "phone": "০১৭১০০০৫১৩২৬",
+    "title": "শরীর চর্চা",
+    "details": "It is a long established fact that a reader will be distracted by the readable content of looking a"
+  },
+  {
+    "img": "317999788_142010871958145_8995477215554804830_n-removebg-preview.png",
+    "name": "মো: আহসান হাবীব",
+    "position": "সহকারি শিক্ষক",
+    "IndexNo": "৫৪৪৩৫১",
+    "phone": "০১৭১০-৬০৬০৮৮",
+    "title": "গণিত",
+    "details": "It is a long established fact that a reader will be distracted by the readable content of looking a"
+  },
+  {
+    "img": "317999788_142010871958145_8995477215554804830_n-removebg-preview.png",
+    "name": "মো: মোরশেদ আলী",
+    "position": "সহকারি শিক্ষক",
+    "IndexNo": "১০০৮২৯১",
+    "phone": "০১৭১০৪৮৯০৫১",
+    "title": "বিজ্ঞান",
+    "details": "It is a long established fact that a reader will be distracted by the readable content of looking a"
+  },
+  {
+    "img": "317999788_142010871958145_8995477215554804830_n-removebg-preview.png",
+    "name": "মো: আব্দুস সালাম",
+    "position": "সহকারি শিক্ষক",
+    "IndexNo": "৫৫২৪৮৪",
+    "phone": "০১৭২২-৯৩৪৫৪২",
+    "title": "কৃষি",
+    "details": "It is a long established fact that a reader will be distracted by the readable content of looking a"
+  },
+  {
+    "img": "317999788_142010871958145_8995477215554804830_n-removebg-preview.png",
+    "name": "মো: বাদশা আলমগীর",
+    "position": "সহকারি শিক্ষক",
+    "IndexNo": "১০১৮১২০",
+    "phone": "০১৭৯৭-৩২২৩৩০",
+    "title": "কম্পিউটার বিজ্ঞান",
+    "details": "It is a long established fact that a reader will be distracted by the readable content of looking a"
+  },
+  {
+    "img": "317999788_142010871958145_8995477215554804830_n-removebg-preview.png",
+    "name": "মানিক চন্দ্র রায়",
+    "position": "সহকারি শিক্ষক",
+    "IndexNo": "১০১৬৬৪৭",
+    "phone": "০১৭৭০-৩৮৮৪৯০",
+    "title": "হিন্দু ধর্ম",
+    "details": "It is a long established fact that a reader will be distracted by the readable content of looking a"
+  },
+  {
+    "img": "317999788_142010871958145_8995477215554804830_n-removebg-preview.png",
+    "name": "মোছা: তানজিলা বানু",
+    "position": "সহকারি শিক্ষক",
+    "IndexNo": "১১০৩৭৪৩",
+    "phone": "০১৭৪৪-২৫২৪৬২",
+    "title": "গ্রন্থা-গারিক",
+    "details": "It is a long established fact that a reader will be distracted by the readable content of looking a"
+  },
+  {
+    "img": "317999788_142010871958145_8995477215554804830_n-removebg-preview.png",
+    "name": "সন্তোষ কুমার রায়",
+    "position": "অফিস সহকারী",
+    "IndexNo": "৫৪০৫৯০",
+    "phone": "০১৭২৫-৯৩৪০৭৫",
+    "title": "অফিস সহকারী",
+    "details": "It is a long established fact that a reader will be distracted by the readable content of looking a"
+  },
+  {
+    "img": "317999788_142010871958145_8995477215554804830_n-removebg-preview.png",
+    "name": "মো: আসাদুজ্জামান আরিফ",
+    "position": "কম্পিউটার ল্যাব অপারেটর",
+    "IndexNo": "৫৬৮৪১৭৬৬",
+    "phone": "০১৭৪০-০০৮২৬০",
+    "title": "ল্যাব অপারেটর",
+    "details": "It is a long established fact that a reader will be distracted by the readable content of looking a"
+  }
 ]
