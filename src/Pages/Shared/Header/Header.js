@@ -2,7 +2,6 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-// import { BsBook } from 'react-icons/bs';
 import kphs from '../../../Images/logo/kphs.png'
 import { FcReadingEbook, FcHome, FcStatistics, FcConferenceCall } from "react-icons/fc";
 import { Link } from 'react-router-dom';

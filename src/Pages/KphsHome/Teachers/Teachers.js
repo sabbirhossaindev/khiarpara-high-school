@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import {Card, Col, Container, Row } from 'react-bootstrap';
 import './Teachers.css';
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
-import { BsArrowRightCircleFill, BsFillTelephoneFill, BsForwardFill, BsPersonFill } from 'react-icons/bs';
+import { BsArrowRightCircleFill, BsFillTelephoneFill, BsForwardFill, BsPersonFill, BsPinAngleFill } from 'react-icons/bs';
 
 const Teachers = () => {
     const [text] = useTypewriter({
@@ -40,6 +40,7 @@ const Teachers = () => {
                                     <h5 className='text-center'>নামঃ {teach?.name}</h5>
                                     <h6 className='text-center text-danger'><BsPersonFill className='text-success mx-1'/>{teach?.position}</h6>
                                     <p className='text-center'>ইনডেক্স নং<BsArrowRightCircleFill className='text-success mx-1'/>  {teach?.IndexNo}</p>
+                                    <h6 className='text-center'>পদবি<BsArrowRightCircleFill className='text-success mx-1'/>{teach?.position}</h6>
                                     <h5 className='text-center'><BsFillTelephoneFill className='text-success mx-1'/>{teach?.phone}</h5>
                                     <p className='text-center fs-5 p-2 text-secondary'>{teach?.details.slice(0, 100) + " ... more"}</p>
                                 </Card.Body>

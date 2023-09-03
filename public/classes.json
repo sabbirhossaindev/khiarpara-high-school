@@ -1,0 +1,42 @@
+[
+  {
+    "img": "http://localhost:3000/static/media/logo.24b77d163efae065de1d.png",
+    "class": "ক্লাস সিক্স",
+    "totalStn": "৬০"
+  },
+  {
+    "img": "http://localhost:3000/static/media/logo.24b77d163efae065de1d.png",
+    "class": "ক্লাস সপ্তম",
+    "totalStn": "৭০"
+  },
+  {
+    "img": "http://localhost:3000/static/media/logo.24b77d163efae065de1d.png",
+    "class": "ক্লাস অষ্টম",
+    "totalStn": "৬৫"
+  },
+  {
+    "img": "http://localhost:3000/static/media/logo.24b77d163efae065de1d.png",
+    "class": "ক্লাস নবম",
+    "totalStn": "৭০"
+  },
+  {
+    "img": "http://localhost:3000/static/media/logo.24b77d163efae065de1d.png",
+    "class": "ক্লাস দশম",
+    "totalStn": "৭০"
+  },
+  {
+    "img": "http://localhost:3000/static/media/logo.24b77d163efae065de1d.png",
+    "class": "ক্লাস সিক্স",
+    "totalStn": "৬০"
+  },
+  {
+    "img": "http://localhost:3000/static/media/logo.24b77d163efae065de1d.png",
+    "class": "computer lab",
+    "totalStn": "৬০"
+  },
+  {
+    "img": "http://localhost:3000/static/media/logo.24b77d163efae065de1d.png",
+    "class": "libery",
+    "totalStn": "৬০"
+  }
+]
