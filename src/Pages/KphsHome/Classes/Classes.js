@@ -9,7 +9,7 @@ const Classes = () => {
                 <hr className='hr1'/>
             <hr className='hr2' />
             <Container className='my-5'>
-                <h1>শিক্ষার্থীরা details </h1>
+                <h1>শিক্ষার্থীরা details 6th to 10 th +  class room + exercise pic + lab pic</h1>
             </Container>
         </div>
     );

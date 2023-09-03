@@ -42,7 +42,7 @@ const Teachers = () => {
                                     <p className='text-center'>ইনডেক্স নং<BsArrowRightCircleFill className='text-success mx-1'/>  {teach?.IndexNo}</p>
                                     <h6 className='text-center'>পদবি<BsArrowRightCircleFill className='text-success mx-1'/>{teach?.position}</h6>
                                     <h5 className='text-center'><BsFillTelephoneFill className='text-success mx-1'/>{teach?.phone}</h5>
-                                    <p className='text-center fs-5 p-2 text-secondary'>{teach?.details.slice(0, 100) + " ... more"}</p>
+                                    <small className='text-title text-center fs-5 p-2 text-secondary'>{teach?.details.slice(0, 120) + " ... more"}</small>
                                 </Card.Body>
                             </Card>
                         </div>
