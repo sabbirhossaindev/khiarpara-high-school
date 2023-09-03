@@ -23,7 +23,7 @@ const Notice = () => {
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 3500,
         pauseOnHover: true,
         responsive: [
           {
@@ -36,7 +36,7 @@ const Notice = () => {
             }
           },
           {
-            breakpoint: 600,
+            breakpoint: 800,
             settings: {
               slidesToShow: 2,
               slidesToScroll: 2,
@@ -44,7 +44,7 @@ const Notice = () => {
             }
           },
           {
-            breakpoint: 300,
+            breakpoint: 600,
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1

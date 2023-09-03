@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import './Contact.css';
-import { BsFillTelephoneInboundFill, BsFillEnvelopeOpenFill, BsCursorFill, BsChatDotsFill, BsBuilding } from "react-icons/bs";
+import { BsFillTelephoneInboundFill, BsFillEnvelopeOpenFill, BsCursorFill, BsChatDotsFill, BsBuilding, BsFillPinFill } from "react-icons/bs";
 import Form from 'react-bootstrap/Form';
 import { toast } from 'react-toastify';
 import banner from '../../../Images/logo/banner.jpg';
@@ -31,7 +31,7 @@ const Contact = () => {
         .then(res => res.json())
         .then(data => {
             // console.log(data);
-            toast.success('Message sand.😮 please check your email your answer will be given after a few minutes later📝 Thank you !🥰');
+            toast.success('এসএমএস চলে গিয়েছে, অনুগ্রহ করে আপনার ইমেইল চেক করুন আপনার উত্তর কয়েক মিনিট পরে দেওয়া হবে ধন্যবাদ!');
             form.reset('');
         })
     }
@@ -80,7 +80,7 @@ const Contact = () => {
 
                         <div className='email'>
                             <h2 className='mt-3'>
-                                <span className='text-danger'><BsBuilding /></span>
+                                <span className='text-danger'><BsFillPinFill /></span>
                             </h2>
                             <div>
                                 <h5 className='fs-3'>এমপিও কোড</h5>

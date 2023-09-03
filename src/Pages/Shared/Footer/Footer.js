@@ -82,7 +82,7 @@ const Footer = () => {
                     </Col>
                 </Row>
                 <div className='text-light text-center mt-5'>
-                    <h5>&copy; 2098-{new Date().getFullYear()} খিয়ারপাড়া উচ্চ বিদ্যালয় <span className='text-primary mx-2'><a className='sabbir' href="http://dev-sabbir.wev.app/">Develop by Sabbir</a></span>  সমস্ত অধিকার সংরক্ষিত। <span className='text-danger'>&trade;</span></h5>
+                    <h5>&copy; 2098-{new Date().getFullYear()} খিয়ারপাড়া উচ্চ বিদ্যালয় <span className='text-primary mx-2'><a className='sabbir' href="https://dev-sabbir.web.app/">Develop by Sabbir</a></span>  সমস্ত অধিকার সংরক্ষিত। <span className='text-danger'>&trade;</span></h5>
                 </div>
             </Container>
         </div>
