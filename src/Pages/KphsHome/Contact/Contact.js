@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import './Contact.css';
-import { BsFillTelephoneInboundFill, BsFillEnvelopeOpenFill, BsCursorFill, BsFacebook, BsInstagram, BsLinkedin, BsGlobe, BsChatDotsFill, BsBuilding } from "react-icons/bs";
+import { BsFillTelephoneInboundFill, BsFillEnvelopeOpenFill, BsCursorFill, BsChatDotsFill, BsBuilding } from "react-icons/bs";
 import Form from 'react-bootstrap/Form';
 import { toast } from 'react-toastify';
 import banner from '../../../Images/logo/banner.jpg';
@@ -98,15 +98,6 @@ const Contact = () => {
                             </div>
                         </div>
 
-                        <div className='social-link text-center my-2'>
-                                <h2 className='social-h2'><a href="#home"><BsGlobe className='text-primary'/></a></h2>
-
-                                <h2 className='social-h2'><a href="https://www.linkedin.com/in/md-sabbir-hossain-18300b244/"><BsLinkedin className='text-primary'/></a></h2>
-                                   
-                                <h2 className='social-h2'><a href="https://www.facebook.com/misty.sabbir.3/"><BsFacebook className='text-primary'/></a></h2>
-
-                                <h2 className='social-h2'><a href="https://www.instagram.com/dev__sabbir/?fbclid=IwAR0cozEZJSlO_1JIYXtcbxKAPDnTkJ2NDZR9VZCO4m0K8SyknAL3Se-7mqs"><BsInstagram className='text-danger'/></a></h2>
-                            </div>
                     </Col>
 
                     <Col md='7' className='mt-2'>
