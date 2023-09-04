@@ -6,7 +6,7 @@ import { BsArrowRightCircleFill, BsFillTelephoneFill, BsForwardFill, BsPersonFil
 
 const Teachers = () => {
     const [text] = useTypewriter({
-        words: ['মো: জাকির হোসাইন', 'মো: মিজানুর রহমান', 'মোছা: আনিসা খাতুন', 'মো: আব্দুল মালেক সরকার', 'মো: আউয়াল আলী', 'মো: শফিকুর রহমান', 'মো: সাদেকুল ইসলাম', 'মো: আহসান হাবীব', 'মো: মোরশেদ আলী', 'মো: আব্দুস সালাম', 'মো: বাদশা আলমগীর', 'মানিক চন্দ্র রায়', 'মোছা: তানজিলা বানু', 'সন্তোষ কুমার রায়', 'মো: আসাদুজ্জামান আরিফ'],
+        words: ['মো: জাকির হোসাইন', 'মো: মিজানুর রহমান', 'মোছা: আনিসা খাতুন', 'মো: আব্দুল মালেক সরকার', 'মো: আউয়াল আলী', 'মো: শাফিকুর রহমান', 'মো: সাদেকুল ইসলাম', 'মো: আহসান হাবীব', 'মো: মোরশেদ আলী', 'মো: আব্দুস সালাম', 'মো: বাদশা আলমগীর', 'মানিক চন্দ্র রায়', 'মোছা: তানজিলা বানু', 'সন্তোষ কুমার রায়', 'মো: আসাদুজ্জামান আরিফ'],
         loop: Infinity,
         onLoopDone: () => console.log(`loop completed after Infinity runs.`)
     });
@@ -38,7 +38,7 @@ const Teachers = () => {
                                 <img variant="top" src={teach?.img} className='p-3 project-img text-center rounded' alt={teach?.name}/>
                                 <Card.Body>
                                     <h5 className='text-center'>নামঃ {teach?.name}</h5>
-                                    <h6 className='text-center text-danger'>পদবি<BsPersonFill className='text-success mx-1'/>{teach?.position}</h6>
+                                    <h6 className='text-center text-danger'><span className='text-success'>পদবি</span><BsPersonFill className='text-success mx-1'/>{teach?.position}</h6>
                                     <p className='text-center'>ইনডেক্স নং<BsArrowRightCircleFill className='text-success mx-1'/>  {teach?.IndexNo}</p>
                                     <h6 className='text-center'>বিষয়<BsArrowRightCircleFill className='text-success mx-1'/>{teach?.title}</h6>
                                     <h5 className='text-center'><BsFillTelephoneFill className='text-success mx-1'/>{teach?.phone}</h5>
