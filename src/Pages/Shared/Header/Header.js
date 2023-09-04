@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import kphs from '../../../Images/logo/kphs.png'
-import { FcReadingEbook, FcHome, FcStatistics, FcConferenceCall } from "react-icons/fc";
+import { FcReadingEbook, FcHome, FcStatistics } from "react-icons/fc";
 import { Link } from 'react-router-dom';
 import './Header.css';
 import { BsFillTelephoneFill, BsBuilding } from 'react-icons/bs';
@@ -32,8 +32,8 @@ const Header = () => {
                 <a className='menu-link' href="#classes"><span className='mx-2 nav-link text-secondary'><FcReadingEbook />শিক্ষার্থীরা</span>
                 </a>
 
-                <a className='menu-link' href="#managingCommittee"><span className='mx-2 nav-link text-secondary'><FcConferenceCall />ম্যানেজিং</span>
-                </a>
+                {/* <a className='menu-link' href="#managingCommittee"><span className='mx-2 nav-link text-secondary'><FcConferenceCall />ম্যানেজিং</span>
+                </a> */}
                 
                 <a className='menu-link' href="#contact"><span className='mx-2 nav-link text-secondary'><BsFillTelephoneFill className='text-success'/>যোগাযোগ</span>
                 </a>
