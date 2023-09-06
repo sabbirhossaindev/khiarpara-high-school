@@ -25,7 +25,7 @@ const Teachers = () => {
                 <hr className='hr2'/>
                 <Row className='mx-auto gap'>
                     <div>
-                        <p className='text-center fs-5'>আমাদের শিক্ষকরা অনেক পরিশ্রমী । তারা তাদের সময়গুলো শিক্ষার্থীদের সাথে নিত্য নতুন জিনিসগুলো সম্পর্কে গভীর ভাবে আলোচলনা করে। খিয়ারপাড়া উচ্চ বিদ্যালয় এর শিক্ষকদের সম্পর্কে সংক্ষিপ্ত আকারে বিবরণ। উল্লেখযোগ্য আমাদের শিক্ষক গুলো হলো:- <br />
+                        <p className='text-center fs-6'>আমাদের শিক্ষকরা অনেক পরিশ্রমী । তারা তাদের সময়গুলো শিক্ষার্থীদের সাথে নিত্য নতুন জিনিস সম্পর্কে গভীর ভাবে আলোচলনা করে। খিয়ারপাড়া উচ্চ বিদ্যালয় এর শিক্ষকদের সম্পর্কে সংক্ষিপ্ত আকারে বিবরণ। উল্লেখযোগ্য আমাদের শিক্ষক গুলো হলো:- <br />
                         <span className='fs-4 mt-5 text-cursor text-center'><BsForwardFill className='text-danger'/><span style={{ color: 'green'}}>{text}</span></span>
                             <Cursor cursorColor='green' />
                         </p>

@@ -17,10 +17,10 @@ const HomeTop = () => {
         <div className='home-Banner rounded p-1' id='home'>
             <div className="position-fixed fixed-bottom text-end me-4 mb-4">
                   <a href="#home">
-                      <img className='img-fluid go-to-top-icon' src='https://icon-library.com/images/back-to-top-icon-png/back-to-top-icon-png-7.jpg' alt="back-to-top-icon" />
+                      <img title='ক্লিক করুন এবং উপরে যান।' className='img-fluid go-to-top-icon' src='https://icon-library.com/images/back-to-top-icon-png/back-to-top-icon-png-7.jpg' alt="back-to-top-icon" />
                   </a>
               </div>
-            <Container className='my-3'>
+            <Container>
                 <Carousel>
                     <Carousel.Item>
                         <div className='carousel-img'>

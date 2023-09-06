@@ -62,7 +62,7 @@ const Notice = () => {
             <Container>
                 <h1 className='text-center my-3 mt-5'><span className='text-success'>নোটিশ </span>বোর্ড</h1>
                 <hr className='hr2' />      
-                <Slider {...settings} className='my-3'>
+                <Slider {...settings} className=''>
                     {
                         notices.map(not =><Col md='6'sm='12' lg='4' className='text-center' key={not._id}>
                         <div className='mx-3 text-center notice-div'>
