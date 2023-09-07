@@ -1,42 +1,50 @@
 [
   {
-    "img": "http://localhost:3000/static/media/logo.24b77d163efae065de1d.png",
-    "class": "ক্লাস সিক্স",
-    "totalStn": "৬০"
+    "img": "https://i.ibb.co/PgSx8mm/classroom.jpg",
+    "class": "ষষ্ঠ শ্রেণী",
+    "totalStn": "৬০ জন",
+    "presentStn": "৪৫ জন",
+    "absent": "১৫ জন",
+    "details": "ষষ্ঠ শ্রেণি সম্পর্কে বিস্তারিত............"
   },
   {
-    "img": "http://localhost:3000/static/media/logo.24b77d163efae065de1d.png",
-    "class": "ক্লাস সপ্তম",
-    "totalStn": "৭০"
+    "img": "https://i.ibb.co/Dr4TqVk/classroom3.jpg",
+    "class": "সপ্তম শ্রেণী",
+    "totalStn": "৭০ জন",
+    "presentStn": "৫০ জন",
+    "absent": "২০ জন",
+    "details": "সপ্তম শ্রেণি সম্পর্কে বিস্তারিত............"
   },
   {
-    "img": "http://localhost:3000/static/media/logo.24b77d163efae065de1d.png",
-    "class": "ক্লাস অষ্টম",
-    "totalStn": "৬৫"
+    "img": "https://i.ibb.co/5n327KS/classroom2.jpg",
+    "class": "অষ্টম শ্রেণী",
+    "totalStn": "৬৫ জন",
+    "presentStn": "৪৫ জন",
+    "absent": "২০ জন",
+    "details": "অষ্টম শ্রেণি সম্পর্কে বিস্তারিত............"
   },
   {
-    "img": "http://localhost:3000/static/media/logo.24b77d163efae065de1d.png",
-    "class": "ক্লাস নবম",
-    "totalStn": "৭০"
+    "img": "https://i.ibb.co/Dr4TqVk/classroom3.jpg",
+    "class": "নবম শ্রেণী",
+    "totalStn": "৭০ জন",
+    "presentStn": "৫০ জন",
+    "absent": "২০ জন",
+    "details": "নবম শ্রেণি সম্পর্কে বিস্তারিত science ৩৮ জন arch ৩২ জন........."
   },
   {
-    "img": "http://localhost:3000/static/media/logo.24b77d163efae065de1d.png",
-    "class": "ক্লাস দশম",
-    "totalStn": "৭০"
+    "img": "https://i.ibb.co/5n327KS/classroom2.jpg",
+    "class": "দশম শ্রেণী",
+    "totalStn": "৭০ জন",
+    "presentStn": "৫০ জন",
+    "absent": "২০ জন",
+    "details": "দশম শ্রেণি সম্পর্কে বিস্তারিত science ৩৮ জন arch ৩২ জন..........."
   },
   {
-    "img": "http://localhost:3000/static/media/logo.24b77d163efae065de1d.png",
-    "class": "ক্লাস সিক্স",
-    "totalStn": "৬০"
-  },
-  {
-    "img": "http://localhost:3000/static/media/logo.24b77d163efae065de1d.png",
-    "class": "computer lab",
-    "totalStn": "৬০"
-  },
-  {
-    "img": "http://localhost:3000/static/media/logo.24b77d163efae065de1d.png",
-    "class": "libery",
-    "totalStn": "৬০"
+    "img": "https://i.ibb.co/sw4tS4j/computer-lab-class.png",
+    "class": "কম্পিউটার ল্যাব",
+    "totalStn": "৬০",
+    "presentStn": "৫০ জন",
+    "absent": "১০ জন",
+    "details": "কম্পিউটার ল্যাব সম্পর্কে বিস্তারিত totalPC ১৮ টি ............"
   }
 ]

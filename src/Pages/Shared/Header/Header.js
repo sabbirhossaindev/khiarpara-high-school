@@ -3,10 +3,10 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import kphs from '../../../Images/logo/kphs.png'
-import { FcReadingEbook, FcHome, FcStatistics } from "react-icons/fc";
+import { FcReadingEbook, FcHome, FcStatistics, FcConferenceCall, FcBusinessman } from "react-icons/fc";
 import { Link } from 'react-router-dom';
 import './Header.css';
-import { BsFillTelephoneFill, BsBuilding } from 'react-icons/bs';
+import { BsFillTelephoneFill, BsBuilding, BsFillTrophyFill } from 'react-icons/bs';
 
 const Header = () => {
     return (
@@ -26,14 +26,14 @@ const Header = () => {
                 <a className='menu-link' href="#notice"><span className='mx-2 nav-link text-secondary'><FcStatistics />নোটিশ</span>
                 </a>
 
-                <a className='menu-link' href="#teachers"><span className='mx-2 nav-link text-secondary'><FcReadingEbook />শিক্ষকরা</span>
+                <a className='menu-link' href="#teachers"><span className='mx-2 nav-link text-secondary'><FcBusinessman className='me-1' />শিক্ষকরা</span>
                 </a>
 
-                <a className='menu-link' href="#classes"><span className='mx-2 nav-link text-secondary'><FcReadingEbook />শিক্ষার্থীরা</span>
+                <a className='menu-link' href="#classes"><span className='mx-2 nav-link text-secondary'><FcConferenceCall className='me-1 text-warning'/>শিক্ষার্থীরা</span>
                 </a>
 
-                {/* <a className='menu-link' href="#managingCommittee"><span className='mx-2 nav-link text-secondary'><FcConferenceCall />ম্যানেজিং</span>
-                </a> */}
+                <a className='menu-link' href="#achievement"><span className='mx-2 nav-link text-secondary'><BsFillTrophyFill className='me-1 text-warning'/>আমাদের অর্জন</span>
+                </a>
                 
                 <a className='menu-link' href="#contact"><span className='mx-2 nav-link text-secondary'><BsFillTelephoneFill className='text-success'/>যোগাযোগ</span>
                 </a>

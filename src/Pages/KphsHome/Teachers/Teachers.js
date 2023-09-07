@@ -35,7 +35,7 @@ const Teachers = () => {
                         teacher?.map(teach =><Col md='6'sm='12' lg='4' className='text-center'>
                         <div className='my-4 mx-2 text-center' data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                             <Card className='shadow-lg'>
-                                <img variant="top" src={teach?.img} className='p-3 project-img text-center rounded' alt={teach?.name}/>
+                                <img variant="top" src={teach?.img} className='p-2 project-img text-center rounded' alt={teach?.name}/>
                                 <Card.Body>
                                     <h5 className='text-center'>নামঃ {teach?.name}</h5>
                                     <h6 className='text-center text-danger'><span className='text-success'>পদবি</span><BsPersonFill className='text-success mx-1'/>{teach?.position}</h6>

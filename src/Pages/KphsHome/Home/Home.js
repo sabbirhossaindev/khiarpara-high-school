@@ -5,6 +5,7 @@ import HomeTop from '../HomeTop/HomeTop';
 import Notice from '../Notice/Notice';
 import Teachers from '../Teachers/Teachers';
 import Classes from '../Classes/Classes';
+import Achievement from '../Achievement/Achievement';
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
             <Notice></Notice>
             <Teachers></Teachers>
             <Classes></Classes>
+            <Achievement></Achievement>
             <Contact></Contact>
         </div>
     );
