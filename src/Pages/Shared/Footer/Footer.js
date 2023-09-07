@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import logo from '../../../Images/logo/logo.png';
 import footer from '../../../Images/logo/footer.png'
 import './Footer.css';
-import { BsBook } from 'react-icons/bs';
+import { BsBook, BsFillTrophyFill } from 'react-icons/bs';
 import { FcReadingEbook, FcContacts, FcHome, FcStatistics, FcServices, FcConferenceCall} from "react-icons/fc";
 
 
@@ -42,6 +42,9 @@ const Footer = () => {
 
                             <a className='menu-link' href="#students"><span className='mx-2 nav-link text-secondary'><FcReadingEbook />শিক্ষার্থীরা</span>
                             </a>
+
+                            <a className='menu-link' href="#achievement"><span className='mx-2 nav-link text-secondary'><BsFillTrophyFill className='me-1 text-warning'/>অর্জন</span>
+                            </a>
                             
                             <a className='menu-link' href="#contact"><span className='mx-2 nav-link text-secondary'><FcContacts />যোগাযোগ</span>          
                             </a>
@@ -65,11 +68,11 @@ const Footer = () => {
                             <h4 className='mx-auto text-center fs-3'>আমরা প্রদান করি</h4>
                             <hr className='hr2'/>
                             <div className='mx-auto text-center'>
-                                <a className='menu-link text-secondary' href="#six"><h3 className='fs-3'>ষষ্ঠ শ্রেণির</h3></a>
-                                <a className='menu-link text-secondary' href="#seven"><h3 className='fs-3'>সপ্তম শ্রেণির</h3></a>
-                                <a className='menu-link text-secondary' href="#eight"><h3 className='fs-3'>অষ্টম শ্রেণি</h3></a>
-                                <a className='menu-link text-secondary' href="#nine"><h3 className='fs-3'>নবম শ্রেণির</h3></a>
-                                <a className='menu-link text-secondary' href="#ten"><h3 className='fs-3'>দশম শ্রেণির</h3></a>
+                                <a className='menu-link text-secondary' href="#classes"><h3 className='fs-3'>ষষ্ঠ শ্রেণির</h3></a>
+                                <a className='menu-link text-secondary' href="#classes"><h3 className='fs-3'>সপ্তম শ্রেণির</h3></a>
+                                <a className='menu-link text-secondary' href="#classes"><h3 className='fs-3'>অষ্টম শ্রেণি</h3></a>
+                                <a className='menu-link text-secondary' href="#classes"><h3 className='fs-3'>নবম শ্রেণির</h3></a>
+                                <a className='menu-link text-secondary' href="#classes"><h3 className='fs-3'>দশম শ্রেণির</h3></a>
                                 
                             </div>
                         </div>
