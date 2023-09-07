@@ -37,7 +37,7 @@ const Contact = () => {
     }
 
     return (
-        <div className='p-1' id='contact' style={{
+        <div className='' id='contact' style={{
             background: `url(${banner})`,
             backgroundSize: 'cover',
             width: '100%'

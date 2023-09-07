@@ -61,8 +61,9 @@ const Notice = () => {
         }}>
             <Container>
                 <h1 className='text-center my-3 mt-5'><span className='text-success'>নোটিশ </span>বোর্ড</h1>
-                <hr className='hr2' />      
-                <Slider {...settings} className=''>
+                <hr className='hr2' />   
+                <marquee className="text-success" scrollamout="15" direction="left" loop="10">আমাদের বিদ্যালয়ের সমস্ত নোটিশ এখানে পাবলিশ করা হয় সবাই এখানে ফলো করুন ।</marquee>   
+                <Slider {...settings} className='my-3'>
                     {
                         notices.map(not =><Col md='6'sm='12' lg='4' className='text-center' key={not._id}>
                         <div className='mx-3 text-center notice-div'>
